@@ -97,6 +97,9 @@ nav ul a:hover::after {
     font-weight: lighter;
     margin: 18px 0;
 }
+img {
+    border-radius: 4%;
+}
 .faca-mais .container {
     display: flex;
     align-items: center;
