@@ -39,7 +39,7 @@ O projeto é baseado nos ODS (Objetivos de Desenvolvimento Sustentável) da ONU 
 
 ## Layout ou Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação: 
+> Link do deploy da aplicação: https://anafontessp.github.io/TCCETECMulheresEmTech/
 
 ## Linguagens, dependências e libs utilizadas :books:
 
