@@ -1,6 +1,4 @@
-# MulheresEmTech
-
- <div align="center">
+<div align="center">
     <h1>MulheresEmTech - Levando educação, igualdade e tecnologia</h1>
 
 </div>
@@ -61,7 +59,7 @@ O projeto é baseado nos ODS (Objetivos de Desenvolvimento Sustentável) da ONU 
     <li><b>Status: </b>em progresso.</li>
     <li><b>Tecnologias: </b>MySQL e BrModelo.</li>
 </ul>
-```
+
 
 ## Desenvolvedores: SQUAD :octocat:
 
