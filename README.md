@@ -65,13 +65,13 @@ O projeto é baseado nos ODS (Objetivos de Desenvolvimento Sustentável) da ONU 
 
 ## Desenvolvedores: SQUAD :octocat:
 
-<h2> Ana Maria Fontes da Silva;</h2>
-<h2>Beatriz Souza Soares Silva;</h2>
-<h2> Joyce Cristina da Silva Cruz;</h2>
-<h2> Patric Silva Matos;</h2>
-<h2> Thais Aparecida Silva Viana;</h2>
+<h4> Ana Maria Fontes da Silva;</h4>
+<h4>Beatriz Souza Soares Silva;</h4>
+<h4> Joyce Cristina da Silva Cruz;</h4>
+<h4> Patric Silva Matos;</h4>
+<h4> Thais Aparecida Silva Viana;</h4>
  
-<h2> User name github: anafontessp, biabia2, oowjooy, Patric011 e thaisviana89.</h2>
+<h3> User name github: anafontessp, biabia2, oowjooy, Patric011 e thaisviana89.</h2>
 
 
 
