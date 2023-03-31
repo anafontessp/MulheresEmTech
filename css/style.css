@@ -164,6 +164,7 @@ img {
 .depoimentos .cards-item:hover .depoimento-user {
     color: white;
 }
+
 .caixa {
     border: 1px solid rgb(215, 110, 236);
     box-shadow: rgb(215, 110, 236) 0.1rem 0.1rem 0.3rem;
@@ -171,6 +172,26 @@ img {
     max-width: 1025px;
     width: 100%;
 }
+
+.caixa-conta {
+    padding: 30px 50px;
+}
+
+.fonte-titulo {
+    color:rgb(170, 27, 199);
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    text-shadow: #041350 0.1rem 0.2rem 0.1rem;
+}
+
+.facebook .google {
+    height: 40px;
+}
+
+.login-conta {
+    margin: 30px auto 30px;
+}
+
 .login-facebook {
     align-items: center;
     background-color: #1877f2;
