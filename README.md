@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>MulheresEmTech - Levando educação, igualdade e tecnologia</h1>
+    <h1>MulheresEmTech30+ - Levando educação, igualdade e tecnologia</h1>
 
 </div>
 
@@ -65,17 +65,16 @@ O projeto é baseado nos ODS (Objetivos de Desenvolvimento Sustentável) da ONU 
 
 <h4> Ana Maria Fontes da Silva;</h4>
 <h4>Beatriz Souza Soares Silva;</h4>
-<h4> Joyce Cristina da Silva Cruz;</h4>
 <h4> Patric Silva Matos;</h4>
 <h4> Thais Aparecida Silva Viana;</h4>
  
-<h3> User name github: anafontessp, biabia2, oowjooy, Patric011 e thaisviana89.</h2>
+<h3> User name github: anafontessp, biabia2, Patric011 e thaisviana89.</h2>
 
 
 
 <h2>Curso:</h2> Técnico de Desenvolvimento de Sistemas - Etec Professor Camargo Aranha 2023;
 
-<h2>Professores:</h2> Aline, Bruno Cano, João P. Siles, Juarez, Orlando Gomes e Thiago; <br>
+<h2>Professores:</h2> Aline Carvalho, Bruno Cano, João P. Siles, Juarez Brandão, Orlando Gomes e Thiago Pascotto; <br>
 
 <p align="justify">
 <h2>Agradecimentos:</h2> O projeto MulheresEmTech foi elaborado graças a toda infraestrutura de formação da Etec, ao conhecimento, instruções e dedicação dos professores. Aos nossos familiares que nos apoiaram durante toda essa jornada de aprendizado, amigos e colegas de turma. </p>
