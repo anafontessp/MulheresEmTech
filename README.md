@@ -81,5 +81,5 @@ O projeto é baseado nos ODS (Objetivos de Desenvolvimento Sustentável) da ONU 
 
 The [MIT License]() (MIT)
 
-Copyright:copyright: 2023 - MulheresEmTech
+Copyright:copyright: 2023 - MulheresEmTech30+
 

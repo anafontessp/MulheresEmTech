@@ -1,8 +1,7 @@
-<?php include('cabecalho.php');?>
-<?php include("conexao.php")?>
+<?php include('cabecalho.php'); ?>
+<?php include("conexao.php") ?>
 
 <section>
-
     <form method="post" action="inserir-cadastro.php">
         <input type="text" placeholder="Nome Completo" name="txNome" />
         </br>
@@ -18,5 +17,3 @@
     </form>
     
 </section>
-
-<?php include('rodape.php'); ?>
