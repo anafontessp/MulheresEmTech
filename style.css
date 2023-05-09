@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:wght@400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "DM Serif Display", serif; */
-  font-family: "Karla", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   transition: .2s;
 }
@@ -18,21 +19,6 @@ body{
   --Dark-Violet:hsl(201,100%,14%);
   --Grayish-Blue: hsl(216, 30%, 68%);
 }
-
-.btn {
-  border: 2px solid white;
-  background: transparent;
-  color: white;
-  padding: 10px 40px;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-.btn:hover {
-  background-color: white;
-  color: black;
-}
-
 .h3 {
   font-size: 4rem;
   font-family: "DM Serif Display", serif;
@@ -41,12 +27,6 @@ body{
   margin-bottom: 40px;
 }
 
-.line {
-  background-color: rgba(255, 255, 255, 0.445);
-  height: 2px;
-  width: 150px;
-  margin-bottom: 40px;
-}
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -55,7 +35,6 @@ body{
 .menu-icon{
   display: none;
 }
-
 .container .logo{
    width: 40%;
    font-size: 130%;
@@ -158,11 +137,6 @@ img{
   margin-top: 0;
 }
 
-.diferent .line {
-  background-color: #96a9c7;
-  width: 150px;
-}
-
 .diferent .cards {
   display: flex;
   align-items: center;
@@ -197,12 +171,15 @@ img{
 
 .find-background {
   width: 100%;
+  text-align: center;
 }
 
 .find .find-background {
   position: relative;
   padding: 40px 50px;
-  background-color: var(--Dark-Violet);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -213,6 +190,7 @@ img{
 .find .container h2 {
   margin: 0;
   font-size: 2em;
+  text-align: center;
 }
 
 /* footer */
@@ -228,7 +206,7 @@ img{
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #dbdadd;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .footer-header .medias-socias img {
@@ -265,7 +243,7 @@ img{
   font-size: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin: 15px 0;
+  margin: 50px 0;
 }
 
 .footer-content div a:hover {
@@ -394,26 +372,6 @@ img{
     margin: 10px;
   }
 
-  .find .container .find-background {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .find .container .find-background a {
-    margin: 15px 0 !important;
-  }
-
-  .find .pattern-find {
-    position: absolute;
-    top: 2px;
-    right: -197px;
-  }
-
-  .find .container h2 {
-    position: relative;
-    z-index: 2;
-  }
-
   .footer-content {
     flex-wrap: wrap;
     justify-content: center;
@@ -432,7 +390,7 @@ img{
 }
 
 @media (max-width:400px) {
-  .find .container h2 {
+  .find .container h4 {
     font-size: 2em;
     line-height: normal;
   }
@@ -440,65 +398,4 @@ img{
   .footer-content div {
     width: 100%;
   }
-  .card{
-    position: relative;
-    width: 350px;
-    height: 250px;
-    background-color: #000;
-    overflow: hidden;
-  }
-  .card_image {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    scale: 1.15;
-    transition: opacity 0.25s,
-    scale 0.35s}
-  }
-  .card:hover .card_image {
-    opacity: 0.5;
-    scale: 1;
-  }
-  .card_body {
-    position: absolute;
-    inset: 0;
-    padding: 50px;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 15px;
-    justify-content: center;
-  }
-.card_body::before{
-  content: '';
-  position: absolute;
-  inset: 20px;
-  border: 2px solid #fff;
-  opacity: 0;
-  scale: 1.25;
-  transition: opacity 0.25s,
-  scale 0.25s;
-}
-.card:hover .card_body::before {
-  opacity: 1;
-  scale: 1;
-}
-.card_title {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 10px
-  rgba(0, 0, 0, .5);
-}
-.card_description {
-  font-size:  14px;
-  opacity: 0;
-  translate: -25px;
-  transition: opacity 0.25s,
-  translate 0.25s;
-}
-.card:hover .card_description {
-  opacity: 1;
-  translate: 0;
-}
+  /* história */

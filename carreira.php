@@ -1,39 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include('cabecalho.php'); ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="main.js">
-    <title>MulheresEmTech30+</title>
-</head>
+<center><h3>Quero fazer transição de carreira para a área de tecnologia. <strong> E agora?</strong></h3></center>
 
-<body>
-    <!-- nav -->
-    <nav>
-        <div class="container">
-            <div class="logo">
-                <h2>MulheresEmTech30+</h2>
-            </div>
-            <ul>
-                <a href="index.html">Home</a>
-                <a href="historia.html">História</a>
-                <a href="carreira.html">Carreira</a>
-                <a href="">Glossário</a>
-                <a href="">Trilhas</a>
-                <a href="">Login</a>
-            </ul>
-            <div class="menu-icon">
-                <img src="images/icon-hamburger.svg">
-            </div>
-        </div>
-    </nav>
-    <section>
-        <center><h2>MulheresEmTech conversou com 3 mulheres, para entender <strong> o processo de transição de carreira profissional</strong> para a área de Tecnologia.</h2></center>
+<section>
+<center><iframe width="750" height="400" src="https://www.youtube.com/embed/LhyOd2NGvk0" title="TRANSIÇÃO DE CARREIRA: Dicas para você fazer uma Mudança de Carreira sem sofrimento!" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+</section>
+
+<br>
+<br>
+
+<section>
+        <center><h4>MulheresEmTech30+ conversou com 3 mulheres, para entender <strong> o processo de transição de carreira profissional</strong> para a área de Tecnologia.</h4></center>
     </section>
     <div id="section3" class="container-fluid" style="padding:60px 10px;">
    <div class="container">
@@ -76,80 +53,4 @@
         <center><h4>Rosana Hermann</h4></center>
         </div>
 
-    <footer class="footer">
-        <img class="patern" src="images/bg-pattern-footer-desktop.svg" alt="">
-        <div class="container">
-            <!-- footer header -->
-            <div class="footer-header">
-                <div class="logo-footer">
-                    <img src="images/logo.svg" alt="">
-                </div>
-                <div class="medias-socias">
-                    <img src="images/icon-facebook.svg" alt="">
-                    <img src="images/icon-twitter.svg" alt="">
-                    <img src="images/icon-pinterest.svg" alt="">
-                    <img src="images/icon-instagram.svg" alt="">
-                </div>
-            </div>
-            <!-- end footer header -->
-            <!-- footer content -->
-            <div class="footer-content">
-                <div>
-                    <h3>Our Company</h3>
-                    <ul class="nav-links">
-                        <a href="#">How we work</a>
-                        <a href="#">why insire?</a>
-                        <a href="#">view plans</a>
-                        <a href="#">review</a>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Help me</h3>
-                    <ul class="nav-links">
-                        <a href="#">FAQ</a>
-                        <a href="#">terms of use</a>
-                        <a href="#">privacy policy</a>
-                        <a href="#">cookies</a>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Contact</h3>
-                    <ul class="nav-links">
-                        <a href="#">sales</a>
-                        <a href="#">support</a>
-                        <a href="#">live chat</a>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Others</h3>
-                    <ul class="nav-links">
-                        <a href="#">carrers</a>
-                        <a href="#">press</a>
-                        <a href="#">licenses</a>
-                    </ul>
-                </div>
-            </div>
-            <!-- end footer content -->
-        </div>
-    </footer>
-    <script>
-        // Menu mobile
-        const menuIcon = document.querySelector('.menu-icon');
-        const nav = document.querySelector('nav');
-        menuIcon.addEventListener('click', () => {
-            if (nav.classList.contains('open')) {
-                nav.classList.remove('open');
-                menuIcon.querySelector('img').src = 'images/icon-hamburger.svg';
-            } else {
-                nav.classList.add('open');
-                menuIcon.querySelector('img').src = 'images/icon-close.svg';
-            }
-        });
-    </script>
-    </body>
-
-    </html>
-    
-   
-        
-   
+<?php include('rodape.php'); ?>

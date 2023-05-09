@@ -1,0 +1,27 @@
+http://localhost/phpmyadmin
+
+nome do banco: dbGlossario
+
+create database dbglossario;
+
+create table tbPalavra(
+    idPalavra int primary key AUTO_INCREMENT,
+    palavra varchar(40),
+    descricao varchar(500),
+    imagem varchar(100),
+    link varchar(100)   
+);
+
+insert into tbpalavra values(null,'USB','descr USB','imagens/usb.jpg','https://pt.wikipedia.org/wiki/USB');
+insert into tbpalavra values(null,'Monitor','descr monitor','imagens/monitor.jpg','https://pt.wikipedia.org/wiki/Monitor_de_v%C3%ADdeo');
+
+create table tbUsuario(
+    idUsuario int primary key AUTO_INCREMENT,
+    nome varchar(40),
+    email varchar(500) not null,
+    senha varchar(100) not null,
+    dtCadastro varchar(100)   
+);
+
+insert into tbUsuario (nome, email, senha, dtCadastro) values 
+('Thais Viana','thais.viana5@etec.sp.gov.br', '123456','2022-11-15');
