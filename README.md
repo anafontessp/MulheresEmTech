@@ -59,7 +59,7 @@ O projeto é baseado nos ODS (Objetivos de Desenvolvimento Sustentável) da ONU 
 </ul>
 
 
-## Desenvolvedores:octocat:
+## Desenvolvedores: :octocat:
 
 <h4>Ana Maria Fontes da Silva;</h4>
 <h4>Beatriz Souza Soares Silva;</h4>
