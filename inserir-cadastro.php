@@ -14,7 +14,7 @@
 
         $pdo = null;
 
-        header("Location:cadastro.php");
+        header("Location:login.php");
 
     }
     catch(PDOException $e){
