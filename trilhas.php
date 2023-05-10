@@ -1,6 +1,6 @@
 <?php include('cabecalho.php'); ?>
 
-center><h4>Transição profissional para a tecnologia. Primeiros passos para Planejar sua Mudança de Carreira.</h4></center>
+<center><h4>Transição profissional para a tecnologia. Primeiros passos para Planejar sua Mudança de Carreira.</h4></center>
 <br>
 
 
@@ -19,7 +19,7 @@ center><h4>Transição profissional para a tecnologia. Primeiros passos para Pla
 
 <div>
 		
-<div id="div1">
+<div class="container mt-3">
   <div class="card" style="width:250px">
     <img class="card-img-top"src="images/Logo.png" alt="">
     <div class="card-body">
@@ -30,9 +30,9 @@ center><h4>Transição profissional para a tecnologia. Primeiros passos para Pla
   </div>
   <br>
 
-  <div class="div2">
+  <div class="container mt-3">
   <div class="card" style="width:250px">
-    <img class="card-img-top"src="images/Hedy2.jfif" alt="">
+    <img class="card-img-top"src="images/Logo.png" alt="">
     <div class="card-body">
       <h4 class="card-title">Lógica de Programação</h4>
       <p class="card-text">Conheça a base para ser um bom programador(a) e iniciar seu conhecimento em tecnologia. </p>
@@ -41,11 +41,11 @@ center><h4>Transição profissional para a tecnologia. Primeiros passos para Pla
     <br>
 
   </div>
-  <div class="div3">
+  <div class="container mt-3">
   <div class="card" style="width:250px">
-    <img class="card-img-top"src="images/grace5.jpg" alt="">
+    <img class="card-img-top"src="images/Logo.png" alt="">
     <div class="card-body">
-      <h4 class="card-title">Grace Hopper (1906-1992)</h4>
+      <h4 class="card-title">Dicas</h4>
       <p class="card-text">Considerada uma das pioneiras da programação de computadores e criadora da linguagem de programação COBOL.</p>
       <p><a href="https://encurtador.com.br/rYZ25" target="_blank">Conheça mais</a></p>
     </div>
@@ -53,11 +53,11 @@ center><h4>Transição profissional para a tecnologia. Primeiros passos para Pla
   <br>
 
   </div>
-  <div class="div4">
+  <div class="container mt-3">
   <div class="card" style="width:250px">
-    <img class="card-img-top"src="images/eniac.jfif" alt="">
+    <img class="card-img-top"src="images/Logo.png" alt="">
     <div class="card-body">
-      <h4 class="card-title">Jean Jennings Bartik (1924-2011)</h4>
+      <h4 class="card-title">Filme</h4>
       <p class="card-text">Uma das primeiras programadoras do ENIAC (Electronic Numerical Integrator and Computer), um dos primeiros computadores eletrônicos.</p>
       <p><a href="https://www.ufrgs.br/enigma/as-mulheres-do-eniac/" target="_blank">Conheça mais</a></p>
     </div>
