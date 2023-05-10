@@ -5,7 +5,7 @@ center><h4>Transição profissional para a tecnologia. Primeiros passos para Pla
 
 
 <section>
-<center><iframe width="591" height="360" src="https://youtu.be/pD0bIsqvzlM" title="Mulheres na Computação | Camila Achutti | TEDxUSP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+<center><iframe width="1097" height="617" src="https://www.youtube.com/embed/pD0bIsqvzlM" title="TRANSIÇÃO DE CARREIRA - Primeiros passos para Planejar sua Mudança de Carreira" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
 </section>
 <br>
 <br>
