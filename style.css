@@ -402,6 +402,10 @@ img{
 
   /* trilhas_tech */
 
+  .card-body {
+    background-color: white;
+  }
+
   .row {
     display: flex;
     align-items: center;
@@ -420,4 +424,8 @@ img{
   .card:hover {
     transform: translateY(-5px);
     cursor: pointer;
+  }
+
+  .card-img-top {
+    float: right;
   }
