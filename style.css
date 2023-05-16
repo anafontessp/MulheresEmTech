@@ -402,15 +402,18 @@ img{
 
   /* trilhas_tech */
 
-  #main div {
-    width: 100px;
-    height: 100px;
-    display: flex;
- }
+  .container mt-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh; 
+}
 
- #div1 {
-  background-color: magenta;    
- }
- #div2 {
-  background-color: teal;
- }
+.container > div {
+  width: 100px;
+  height: 140px;
+  border-radius: 10%;
+}

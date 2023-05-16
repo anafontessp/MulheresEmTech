@@ -17,7 +17,7 @@
 <br>
 </section>
 
-<div id="main">
+<div>
 		
 <div class="container mt-3">
   <div class="card" style="width:250px">
@@ -53,18 +53,5 @@
   <br>
 
   </div>
-  <div class="container mt-3">
-  <div class="card" style="width:250px">
-    <img class="card-img-top"src="images/Logo.png" alt="">
-    <div class="card-body">
-      <h4 class="card-title">Filme</h4>
-      <p class="card-text">Uma das primeiras programadoras do ENIAC (Electronic Numerical Integrator and Computer), um dos primeiros computadores eletrônicos.</p>
-      <p><a href="https://www.ufrgs.br/enigma/as-mulheres-do-eniac/" target="_blank">Conheça mais</a></p>
-    </div>
-  </div>
-  <br>
-
- 
-</div>
 
 <?php include('rodape.php'); ?>
