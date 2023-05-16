@@ -19,22 +19,22 @@
 	
 <body>
     <div class="row">
-      <div class="card green">
-        <h2>Monetização</h2>
-        <p>Configure a monetização</p>
-        <img class="image" src="images/Logo.png" alt="" />
+      <div class="card green" style="width:250px">
+        <h2>Transição</h2>
+        <p>Transição de Carreira para Tecnologia.</p>
+        <img class="image-card" src="images/Logo.png" alt="" />
       </div>
 
-      <div class="card blue">
-        <h2>Configurações</h2>
-        <p>Configure o seu sistema</p>
-        <img class="image" src="images/Logo.png" alt="" />
+      <div class="card blue" style="width:250px">
+        <h2>Lógica</h2>
+        <p>Aprenda Lógica de Programação.</p>
+        <img class="image-card" src="images/Logo.png" alt="" />
       </div>
 
-      <div class="card red">
-        <h2>Artigos</h2>
-        <p>Crie e edite artigos</p>
-        <img class="image" src="images/Logo.png" alt="" />
+      <div class="card red" style="width:250px">
+        <h2>Profissões</h2>
+        <p>Como ser um programador(a)?</p>
+        <img class="image-card" src="images/Logo.png" alt="" />
       </div>
     </div>
 

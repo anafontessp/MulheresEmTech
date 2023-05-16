@@ -422,7 +422,7 @@ img{
   }
   
   .card:hover {
-    transform: translateY(-5px);
+    transform: transitionY (-5px);
     cursor: pointer;
   }
   
@@ -431,10 +431,9 @@ img{
     font-size: 16px;
   }
   
-  .image {
+  .image-card {
     float: right;
-    max-width: 64px;
-    max-height: 64px;
+
   }
   
   .blue {
