@@ -400,12 +400,12 @@ img{
   }
   /* história */
 
-  /* trilhas */
+  /* trilhas_tech */
 
-  div {
-        width: 100px;
+  #main div {
+    width: 100px;
     height: 100px;
-    display: inline-block;
+    display: flex;
  }
 
  #div1 {
