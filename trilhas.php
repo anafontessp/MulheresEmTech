@@ -17,31 +17,26 @@
 <br>
 </section>
 	
-<div class="row">
-  <div class="card" style="width:250px">
-    <img class="card-img-top"src="images/Logo.png" alt="">
-    <div class="card-body">
-      <h4 class="card-title">Trilhas_Tech</h4>
-      <p class="card-text">Como iniciar seus estudos em Tecnologia?</p>
-      <p><a href="https://encurtador.com.br/azOUY" target="_blank">Conheça mais</a></p>
-    </div>
-  
-    <div class="card" style="width:250px">
-    <img class="card-img-top"src="images/Logo.png" alt="">
-    <div class="card-body">
-      <h4 class="card-title">Trilhas_Tech</h4>
-      <p class="card-text">Como iniciar seus estudos em Tecnologia?</p>
-      <p><a href="https://encurtador.com.br/azOUY" target="_blank">Conheça mais</a></p>
-    </div>
-    
-  <div class="card" style="width:250px">
-    <img class="card-img-top"src="images/Logo.png" alt="">
-    <div class="card-body">
-      <h4 class="card-title">Dicas</h4>
-      <p class="card-text">Considerada uma das pioneiras da programação de computadores e criadora da linguagem de programação COBOL.</p>
-      <p><a href="https://encurtador.com.br/rYZ25" target="_blank">Conheça mais</a></p>
+<body>
+    <div class="row">
+      <div class="card green">
+        <h2>Monetização</h2>
+        <p>Configure a monetização</p>
+        <img class="image" src="images/Logo.png" alt="" />
+      </div>
+
+      <div class="card blue">
+        <h2>Configurações</h2>
+        <p>Configure o seu sistema</p>
+        <img class="image" src="images/Logo.png" alt="" />
+      </div>
+
+      <div class="card red">
+        <h2>Artigos</h2>
+        <p>Crie e edite artigos</p>
+        <img class="image" src="images/Logo.png" alt="" />
+      </div>
     </div>
 
-  </div>
 
 <?php include('rodape.php'); ?>
