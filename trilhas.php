@@ -18,25 +18,33 @@
 </section>
 	
 <body>
-    <div class="row">
-      <div class="card green" style="width:250px">
+
+
+    <div class="container">
+      <div class="card" style="width:250px">
         <h2>Transição</h2>
         <p>Transição de Carreira para Tecnologia.</p>
+        <a href="#">Saiba mais</a>
         <img class="image-card" src="images/Logo.png" alt="" />
       </div>
 
-      <div class="card blue" style="width:250px">
+      <div class="card" style="width:250px">
         <h2>Lógica</h2>
         <p>Aprenda Lógica de Programação.</p>
+        <a href="#">Saiba mais</a>
         <img class="image-card" src="images/Logo.png" alt="" />
       </div>
 
       <div class="card red" style="width:250px">
         <h2>Profissões</h2>
         <p>Como ser um programador(a)?</p>
+        <a href="#">Saiba mais</a>
         <img class="image-card" src="images/Logo.png" alt="" />
       </div>
     </div>
+</div>
+
+</body>
 
 
 <?php include('rodape.php'); ?>
