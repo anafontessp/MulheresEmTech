@@ -27,6 +27,25 @@ body{
   margin-bottom: 40px;
 }
 
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-02 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 250px;
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -137,6 +156,21 @@ img{
   margin-top: 0;
 }
 
+.card-container {
+  display: contents;
+}
+.card {
+  height: 560px;
+  display: flex;
+}
+.card-historia {
+  height: 740px !important;
+}
+
+.card-body {
+  position: relative;
+}
+
 .diferent .cards {
   display: flex;
   align-items: center;
@@ -157,6 +191,11 @@ img{
 
 .diferent .cards .card-item .description {
   color: var(--Dark-Grayish-Violet);
+}
+
+.card-saibamais {
+  position: absolute;
+  bottom: 2rem;
 }
 
 .find {
@@ -402,33 +441,19 @@ img{
 
   /* trilhas_tech */
 
-  body {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .container {
-    width: 1150px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  .container mt-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh; 
+}
 
-  }
-
-  .container.card{
-    position: relative;
-    padding: 10px;
-    width: 300px;
-    background-color: #fafafa;
-    margin: 20px;
-    border: 1px solid black;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: 0.5s;
-    text-align: center;
-
-  }
+.container > div {
+  width: 100px;
+  height: 140px;
+  border-radius: 10%;
+}
+}
