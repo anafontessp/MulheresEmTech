@@ -4,17 +4,20 @@
     $email = $_POST['txEmail'];
     $senha = $_POST['txSenha'];
 
-    //echo $cadastro;
-
     include("conexao.php");
 
     try{
-        $stmt = $pdo->prepare("insert into tbCadastro values(null,'$nome','$email','$senha')");
-        $stmt ->execute();
+        $stmt = $pdo->prepare("INSERT INTO `tbcadastro` (`idUsuario`, `nome`, `email`, `senha`, `progresso`) 
+        VALUES (null, :nome, :email, :senha, '1');");
+        $stmt->bindParam(':nome', $nome);
+        $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':senha', $senha);
+        $stmt->execute();
 
         $pdo = null;
 
         header("Location:login.php");
+
 
     }
     catch(PDOException $e){

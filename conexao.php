@@ -4,8 +4,8 @@
     $servidor = "localhost";
     $banco = "mulheresemtech30";
     $usuario = "root";
-    $senha = "";
+    $bdsenha = "";
 
-    $pdo = new PDO("mysql:host=$servidor;dbname=$banco",$usuario,$senha);
+    $pdo = new PDO("mysql:host=$servidor;dbname=$banco",$usuario,$bdsenha);
 
 ?>

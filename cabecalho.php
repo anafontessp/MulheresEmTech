@@ -1,3 +1,9 @@
+<?php 
+if(!isset($_SESSION)) {
+    session_start();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -26,7 +32,11 @@
                 <a href="historia.php">História</a>
                 <a href="carreira.php">Carreira</a>
                 <a href="trilhas.php">Trilhas_Tech</a>
-                <a href="login.php">Login</a>
+                <?php if(isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) {?>
+                    <a href="logout.php">Logout</a>
+                <?php } else { ?>
+                    <a href="login.php">Login</a>
+                <?php } ?>
             </ul>
             <div class="menu-icon">
                 <img src="images/icon-hamburger.svg">

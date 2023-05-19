@@ -13,14 +13,16 @@
     $senhaBanco= "";
 
     try{
-        $stmt = $pdo -> prepare("select email, senha from tbCadastro where email='$email' and senha='$senha'");
+        $stmt = $pdo -> prepare("select nome, email, senha, progresso from tbCadastro where email='$email' and senha='$senha'");
 
         $stmt ->execute();
 
         while($row = $stmt->fetch(PDO::FETCH_BOTH)){
+            $nomeBanco = $row['nome'];
             $emailBanco = $row['email'];
             $senhaBanco = $row['senha'];
-            
+            unset($row['senha']);
+            $progressoBanco = $row['progresso'];
         }
     }
     catch(PDOException $e){
@@ -29,14 +31,17 @@
 
     //verificação para autenticação
     if($email == $emailBanco && $senha == $senhaBanco){
-        $_SESSION["autorizacao"] = true;
-        header("Location:index-painel.php");
+        $_SESSION["autorizacao"] = "true";
+        $_SESSION["user_name"] = $nomeBanco;
+        $_SESSION["progresso"] = $progressoBanco;
+        unset($senhaBanco); //destruição da variável $senhaBanco
+        header("Location:trilhas.php");
     }
     else{
         $_SESSION["autorizacao"] = false;
         unset($_SESSION["autorizacao"]);
         session_destroy();
-        header("Location:../login.php");
+        header("Location:login.php?error=true");
     }
 
 ?>

@@ -162,6 +162,7 @@ img{
 .card {
   height: 560px;
   display: flex;
+  cursor: pointer;
 }
 .card-historia {
   height: 740px !important;
@@ -169,6 +170,11 @@ img{
 
 .card-body {
   position: relative;
+}
+
+.card-link {
+  text-decoration: none;
+  color: var(--bs-card-title-spacer-y);
 }
 
 .diferent .cards {

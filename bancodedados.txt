@@ -1,9 +1,11 @@
-create database mulheresemtech30;
+CREATE DATABASE mulheresemtech30; 
 
-create table tbCadastro(
-    idUsuario int AUTO_INCREMENT PRIMARY KEY,
-    nome varchar (250),
-    email varchar (250),
-    senha varchar (250)
+USE mulheresemtech30;
+
+CREATE TABLE tbCadastro(
+    idUsuario INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(250),
+    email VARCHAR(250),
+    senha VARCHAR(250),
+    progresso INT
 );
-

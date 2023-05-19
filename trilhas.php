@@ -1,4 +1,12 @@
-<?php include('cabecalho.php'); ?>
+<?php 
+session_start();
+if (!isset($_SESSION["autorizacao"]) && !isset($_SESSION["user_name"])) {
+  header("Location: index.php");
+}
+
+include('cabecalho.php'); 
+
+?>
 
 <center><h4>Transição profissional para a tecnologia. Primeiros passos para Planejar sua Mudança de Carreira.</h4></center>
 <br>
@@ -13,14 +21,14 @@
 
 <section>
 
-<center><h4>Abaixo comece a estudar com as Trilhas_Tech.</h4></center>
+<center><h4>Olá <?php echo $_SESSION['user_name'] ?>, comece a estudar com as Trilhas_Tech.</h4></center>
 <br>
 </section>
 
 <section class="main-section">
   <div class="main-02">
       
-    <div class="container card-container mt-3">
+    <a class="card-link container card-container mt-3">
       <div class="card" style="width:250px">
         <img class="card-img-top"src="images/Logo.png" alt="">
         <div class="card-body">
@@ -29,7 +37,7 @@
           <p class="card-saibamais"><a href="https://encurtador.com.br/azOUY" target="_blank">Conheça mais</a></p>
         </div>
       </div>
-    </div>
+    </a>
 
     <div class="container card-container mt-3">
       <div class="card" style="width:250px">
