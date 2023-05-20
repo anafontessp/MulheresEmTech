@@ -32,9 +32,9 @@ include('cabecalho.php');
       <div class="card" style="width:250px">
         <img class="card-img-top"src="images/Logo.png" alt="">
         <div class="card-body">
-          <h4 class="card-title">Trilhas_Tech</h4>
-          <p class="card-text">Como iniciar seus estudos em Tecnologia?</p>
-          <p class="card-saibamais"><a href="https://encurtador.com.br/azOUY" target="_blank">Conheça mais</a></p>
+          <h4 class="card-title">Transição Profissional</h4>
+          <p class="card-text">Como iniciar minha transição de carreira com 30 anos? Por onde devo começar?</p>
+          <p class="card-saibamais"><a href="trilhaTransCarreira.php" target="_blank">Conheça mais</a></p>
         </div>
       </div>
     </a>
@@ -54,18 +54,7 @@ include('cabecalho.php');
       <div class="card" style="width:250px">
         <img class="card-img-top"src="images/Logo.png" alt="">
         <div class="card-body">
-          <h4 class="card-title">Dicas</h4>
-          <p class="card-text">Considerada uma das pioneiras da programação de computadores e criadora da linguagem de programação COBOL.</p>
-          <p class="card-saibamais"><a href="https://encurtador.com.br/rYZ25" target="_blank">Conheça mais</a></p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="container card-container mt-3">
-      <div class="card" style="width:250px">
-        <img class="card-img-top"src="images/Logo.png" alt="">
-        <div class="card-body">
-          <h4 class="card-title">Card teste</h4>
+          <h4 class="card-title">Card Teste</h4>
           <p class="card-text">Card criado somente para testes. Mudar nome e descrição do card assim que possível.</p>
           <p class="card-saibamais"><a href="https://encurtador.com.br/rYZ25" target="_blank">Conheça mais</a></p>
         </div>
