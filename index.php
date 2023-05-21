@@ -67,7 +67,7 @@
                     Eu tento lutar por isso. <br>É por isso que eu tenho um relógio na minha parede<br>
                     que corre ao contrário." <br> 
                     <br>Grace Hopper</h2>
-                <a href="/cadastro.php" style="margin-left: auto;position: relative;z-index:9;" class="btn">Saiba mais</a>
+                <a href="#" style="margin-left: auto;position: relative;z-index:9;" class="btn">Saiba mais</a>
                 <img src="images/bg-pattern-how-we-work-desktop.svg" class="pattern-find" alt="">
             </div>
     </section>
