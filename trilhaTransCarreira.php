@@ -76,7 +76,7 @@ include('cabecalho.php');
         Esteja disposto a adaptar sua trilha de aprendizagem com base no feedback recebido,
         nas oportunidades que surgirem e nas mudanças do mercado.
     </p>
-    <h2 class="fonte-titulo mt-5">Trilhas de Transição de Carreira</h2>
+    <h2 class="fonte-titulo mt-5">Trilhas Transição de Carreira</h2>
     <hr>
     <!-- utilizando accordion -->
     <section class="accordion" id="accordionExample">
@@ -110,8 +110,7 @@ include('cabecalho.php');
                         <a href="#" class="list-group-item list-group-item-action"> Vídeo - </a>
                         <a href="#" class="list-group-item list-group-item-action"> APP - </a>
                         <a href="#" class="list-group-item list-group-item-action"> Jogo - </a>
-                        <a href="#" class="list-group-item list-group-item-action"> Jogo - </a>
-                        <a href="#" class="list-group-item list-group-item-action"> Lista de atividades </a>
+                        <a href="#" class="list-group-item list-group-item-action"> Guia prático </a>
                     </div>
                 </div>
             </div>
@@ -119,29 +118,34 @@ include('cabecalho.php');
         <article class="accordion-item">
             <h2 class="accordion-header" id="trilha2">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDois" aria-expanded="false" aria-controls="collapseDois">
-                    Trilha 2 - Antecessor e sucessor
+                    Trilha 2 - 10 mulheres para você se inspirar na sua carreira
                 </button>
             </h2>
             <div id="collapseDois" class="accordion-collapse collapse" aria-labelledby="trilha2" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <p>Trabalhe os conceitos “antecessor e sucessor”, estimulando o desenvolvimento do
-                        raciocínio lógico das crianças e incentivando a elaboração de estratégias para resolver
-                        os desafios. O objetivo desta trilha é fixar a aprendizagem dos conceitos “antecessor” e
-                        “sucessor” e estimular o aluno a reconhecer regularidades em sequências numéricas
-                        relativas a antecessor e sucessor.
+                    <p> Historicamente, a desigualdade de gênero tem afetado a vida das mulheres. Se, no passado, elas eram reduzidas a uma única função,
+                        a de cuidar da vida doméstica, pode-se dizer que hoje elas ocupam uma variedade muito maior de espaços. Mas, ainda assim, 
+                        problemas ligados à desigualdade de gênero persistem, tal como os salários menores que os dos homens, mesmo ambos ocupando
+                        o mesmo cargo. O Dia Internacional da Mulher é uma forma de reconhecer e celebrar a luta e as conquistas das mulheres. 
+                        Pensando nisso, reunimos 10 mulheres referências em seus segmentos para você se inspirar na sua carreira. Confira abaixo 
+                        a lista de grandes nomes e suas respectivas profissões.
                     </p>
                     <div class="list-group">
-                        <a href="https://novaescola.org.br/planos-de-aula/fundamental/2ano/matematica/jogo-das-10-cartas/698 " class="list-group-item list-group-item-action">
-                            Artigo - Plano de aula: Jogo das 10 cartas
+                        <a href="https://unifei.edu.br/personalidades-do-muro/extensao/enedina-alves/" class="list-group-item list-group-item-action">
+                            Artigo - Enedina Alves - Engenheira Civil
                         </a>
-                        <a href="https://escoladossonhosclaudia.blogspot.com/2020/03/plano-de-aula-sucessor-e-antecessor.html" class="list-group-item list-group-item-action"> Artigo - Plano de aula antecessor e
-                            sucessor</a>
-                        <a href="https://www.youtube.com/watch?v=GkvSlQRJagw" class="list-group-item list-group-item-action"> Vídeo - Antecessor e sucessor</a>
-                        <a href="https://play.google.com/store/apps/details?id=com.appsbergman.matematica" class="list-group-item list-group-item-action"> APP - Pequena Matemática</a>
-                        <a href="https://www.escolagames.com.br/jogos/antecessorSucessor/" class="list-group-item list-group-item-action"> Jogo - Antecessor e sucessor</a>
-                        <a href="https://wordwall.net/pt/resource/2521940/antecessor-e-sucessor" class="list-group-item list-group-item-action"> Jogo - Antecessor e sucessor</a>
-                        <a href="https://wordwall.net/pt/resource/19434706/antecessor-e-sucessor" class="list-group-item list-group-item-action"> Jogo - Antecessor e sucessor</a>
-                        <a href="https://lereaprender.com.br/atividades-de-matematica-do-2o-ano/atividades-de-matematica-2ano-antecessor-e-sucessor/" class="list-group-item list-group-item-action"> Lista de atividades </a>
+                        <a href="https://www.youtube.com/watch?v=p3wpczJM2jg&t=1s" class="list-group-item list-group-item-action"> Vídeo - Homenagem à Enedina Alves</a>
+                        <a href="https://www.ebiografia.com/zilda_arns/" class="list-group-item list-group-item-action"> Artigo - Zilda Arns: Médica</a>
+                        <a href="https://agenciadenoticias.uniceub.br/destaque/45-anos-sem-bertha-lutz-quem-foi-a-cientista-e-ativista-revolucionaria/" class="list-group-item list-group-item-action">Artigo - Bertha Lutz - Bióloga</a>
+                        <a href="https://www.soquimica.com.br/biografias/marie_curie/" class="list-group-item list-group-item-action"> Artigo - Marie Curie: Química</a>
+                        <a href="https://www.youtube.com/watch?v=CooRJoRPsGk&t=1s" class="list-group-item list-group-item-action"> Vídeo - Você sabe quem foi Marie Curie?</a>
+                        <a href="https://casacor.abril.com.br/profissionais/lina-bo-bardi-obras/" class="list-group-item list-group-item-action"> Artigo - Lina Bo Bardi: Arquiteta</a>
+                        <a href="https://www.youtube.com/watch?v=9fwtwODu4bo&t=4s" class="list-group-item list-group-item-action"> Vídeo - Lina Bo Bardi: Influências e Heranças na Bahia</a>
+                        <a href="https://www.cbdu.org.br/brasileiras-que-fizeram-historia-daiane-dos-santos/" class="list-group-item list-group-item-action"> Artigo - Daiane dos Santos: Atleta</a>
+                        <a href="https://primeirosnegros.com/ida-b-wells-barnett-pioneira-na-cruzada-pela-justica-aos-negros-dos-eua/" class="list-group-item list-group-item-action"> Artigo - Ida B. Wells: Jornalista</a>
+                        <a href="https://nationalgeographic.pt/historia/grandes-reportagens/2931-amelia-earhart-a-pioneira-que-se-perdeu-no-oceano" class="list-group-item list-group-item-action"> Artigo - Amelia Earhart: Aviadora</a>
+                        <a href="https://www.ufrgs.br/enigma/margaret-hamilton/" class="list-group-item list-group-item-action"> Artigo - Margaret Heafield Hamilton: Cientista da Computação</a>
+                        <a href="https://www.uc.pt/fctuc/dmat/departamento/bibliomat/servicos/matematicos/Noether-E" class="list-group-item list-group-item-action"> Artigo - Emmy Noether: Matemática</a>
                     </div>
                 </div>
             </div>
@@ -219,34 +223,5 @@ include('cabecalho.php');
                 </div>
             </div>
         </article>
-        <article class="accordion-item">
-            <h2 class="accordion-header" id="trilha5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco">
-                    Trilha 5 - Descobrimento do Brasil
-                </button>
-            </h2>
-            <div id="collapseCinco" class="accordion-collapse collapse" aria-labelledby="trilha5" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <p>Nesta trilha o professor aprenderá como repassar o conhecimento sobre o descobrimento do
-                        Brasil de forma lúdica e com a utilização de vários recursos tecnológicos.
-                    </p>
-                    <div class="list-group">
-                        <a href="https://escolakids.uol.com.br/historia/descobrimento-do-brasil.htm" class="list-group-item list-group-item-action">
-                            Artigo - Descobrimento do Brasil
-                        </a>
-                        <a href="https://blog.escolavereda.com.br/podemos-falar-em-descobrimento-do-brasil/" class="list-group-item list-group-item-action"> Artigo - Podemos falar em
-                            descobrimwnto do Brasil</a>
-                        <a href="https://www.youtube.com/watch?v=6Y9coj_0R9Q" class="list-group-item list-group-item-action"> Vídeo - Aula de História:
-                            Descobrimento do Brasil</a>
-                        <a href="https://play.google.com/store/apps/details?id=com.historyisfun.brazilhistory" class="list-group-item list-group-item-action"> APP - Historia do Brasil </a>
-                        <a href="https://wordwall.net/pt/resource/32998568/jogo-de-historia" class="list-group-item list-group-item-action"> Jogo - Historia do Brasil</a>
-                        <a href="https://www.escolagames.com.br/jogos/descobrimentoDoBrasil/" class="list-group-item list-group-item-action"> Jogos - Descobrimento so Brasil</a>
-                        <a href="https://acessaber.com.br/atividade-de-historia-descobrimento-do-brasil-2/  " class="list-group-item list-group-item-action"> Lista de atividades</a>
-
-                    </div>
-                </div>
-            </div>
-        </article>
-    </section>
 
     <?php include('rodape.php'); ?>

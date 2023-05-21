@@ -1,18 +1,18 @@
 <?php include('cabecalho.php'); ?>
 
-<center><h3>Quero fazer transição de carreira para a área de tecnologia. <strong> E agora?</strong></h3></center>
+<center><h4> O MulheresEmTech30+ conversou com 3 mulheres, para entender <strong> o processo de transição de carreira profissional </strong> para a área de Tecnologia. </h4></center>
+<br>
 
+<!-- banner -->
 <section>
-<center><iframe width="750" height="400" src="https://www.youtube.com/embed/LhyOd2NGvk0" title="TRANSIÇÃO DE CARREIRA: Dicas para você fazer uma Mudança de Carreira sem sofrimento!" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+  <div class="container">
+    <img class="trilhas" src="images/background.png" width= "100%" alt="">
+  </div>
 </section>
 
-<br>
-<br>
+<!-- end banner -->
 
-<section>
-        <center><h4>MulheresEmTech30+ conversou com 3 mulheres, para entender <strong> o processo de transição de carreira profissional</strong> para a área de Tecnologia.</h4></center>
-    </section>
-    <div id="section3" class="container-fluid" style="padding:60px 10px;">
+   <div id="section3" class="container-fluid" style="padding:60px 10px;">
    <div class="container">
      <div class="row">
        <div class="col-sm-4">

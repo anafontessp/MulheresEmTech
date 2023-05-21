@@ -1,12 +1,13 @@
 <?php include('cabecalho.php'); ?>
 
 <center><h4>Desigualdade de gênero no setor da tecnologia. Quais os desafios?</h4></center>
+<br>
 
 
 <section>
 <center><iframe width="591" height="360" src="https://www.youtube.com/embed/Qq9h2vVBZmQ" title="Mulheres na Computação | Camila Achutti | TEDxUSP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
 </section>
-<br><br>
+<br>
 <section>
   <center><h4>Inspire-se com mulheres que fazem parte da história da tecnologia.</h4></center>
 </section>

@@ -9,17 +9,15 @@ include('cabecalho.php');
 ?>
 
 <center>
-  <h4>Transição profissional para a área de tecnologia, por onde começar?</h4>
+<h4>Quero fazer transição de carreira para a área de tecnologia. <strong> E agora?</strong></h4>
 </center>
-<br>
 <br>
 <!-- banner -->
 <section>
   <div class="container">
-    <img class="trilhas" src="images/background.png" width= "100%" alt="">
+    <img class="trilhas" src="images/backgroundTrilhas" width= "100%" alt="">
   </div>
 </section>
-<br>
 <br>
 
 <!-- end banner -->
