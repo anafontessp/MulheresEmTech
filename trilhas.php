@@ -47,9 +47,21 @@ include('cabecalho-login.php');
       <div class="card" style="width:250px">
         <img class="card-img-top" src="images/Logo.png" alt="">
         <div class="card-body">
+          <h4 class="card-title">Algoritmo</h4>
+          <p class="card-text">O Curso de Algoritmo é a base necessária para quem quer aprender em linguagens famosas do mercado, como C, Java, PHP e muitas outras. 
+          </p>
+          <p class="card-saibamais"><a href="#" target="_blank">Começar agora</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container card-container mt-3">
+      <div class="card" style="width:250px">
+        <img class="card-img-top" src="images/Logo.png" alt="">
+        <div class="card-body">
           <h4 class="card-title">Lógica de Programação</h4>
-          <p class="card-text">Conheça a base para ser um bom programador(a) e iniciar seu conhecimento em tecnologia. </p>
-          <p class="card-saibamais"><a href="https://encurtador.com.br/myOQ0" target="_blank">Começar agora</a></p>
+          <p class="card-text">Conheça a base para ser um programador(a) e iniciar seu conhecimento em tecnologia.</p>
+          <p class="card-saibamais"><a href="#" target="_blank">Começar agora</a></p>
         </div>
       </div>
     </div>
@@ -58,20 +70,9 @@ include('cabecalho-login.php');
       <div class="card" style="width:250px">
         <img class="card-img-top" src="images/Logo.png" alt="">
         <div class="card-body">
-          <h4 class="card-title">Card Teste</h4>
-          <p class="card-text">Card criado somente para testes. Mudar nome e descrição do card assim que possível.</p>
-          <p class="card-saibamais"><a href="https://encurtador.com.br/rYZ25" target="_blank">Começar agora</a></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container card-container mt-3">
-      <div class="card" style="width:250px">
-        <img class="card-img-top" src="images/Logo.png" alt="">
-        <div class="card-body">
-          <h4 class="card-title">Card teste</h4>
-          <p class="card-text">Card criado somente para testes. Mudar nome e descrição do card assim que possível.</p>
-          <p class="card-saibamais"><a href="https://encurtador.com.br/rYZ25" target="_blank">Começar agora</a></p>
+          <h4 class="card-title">HTML5</h4>
+          <p class="card-text">Aprenda HTML5, CSS3 e JavaScript enquanto monta um site completo com essas tecnologias.</p>
+          <p class="card-saibamais"><a href="#" target="_blank">Começar agora</a></p>
         </div>
       </div>
     </div>

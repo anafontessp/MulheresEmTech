@@ -48,6 +48,7 @@ include('cabecalho.php');
                     <h5 class="card-title">Transição de Carreiras</h5>
                     <p class="card-text"> Transição de carreira não deve ser feita no impulso, sem planejamento, é necessário se planejar, se preparar, saber analisar o mercado e ter paciência,
                         pois ela pode ser um processo de curto, médio ou longo prazo. Nesse vídeo você já pode iniciar seu planejamento de carreira com foco na transição profissional.</p>
+                        <br>
                 </div>
             </div>
         </article>
@@ -61,7 +62,6 @@ include('cabecalho.php');
     <center>
         <h4>Olá <?php echo $_SESSION['user_name'] ?>, comece a estudar com as Trilhas_Tech.</h4>
     </center>
-    <br>
 </section>
 
 
@@ -69,8 +69,8 @@ include('cabecalho.php');
 <div class="container">
     <h2 class="fonte-titulo mt-5">Transição Profissional</h2>
     <hr>
-    <p>Começar a transição de carreira profissional envolve planejamento e uma organização
-        cuidadosa. Vamos apresentar nesse curso um guia com algumas dicas para ajudar você no
+    <p> Começar a transição de carreira profissional envolve planejamento e uma organização
+        cuidadosa. Vamos apresentar nesse curso algumas dicas para ajudar você no
         início dessa jornada.
         Ao longo da transição de carreira, esteja aberto a aprender com a experiência.
         Esteja disposto a adaptar sua trilha de aprendizagem com base no feedback recebido,
@@ -88,26 +88,20 @@ include('cabecalho.php');
             </h2>
             <div id="collapseUm" class="accordion-collapse collapse" aria-labelledby="trilha1" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <p>1. Defina seus objetivos:
-                        Identifique o motivo pelo qual você deseja fazer uma transição de carreira
-                        e estabeleça objetivos claros. Isso ajudará a orientar sua trilha de
-                        aprendizagem e mantê-lo focado.<br>
-                        2. Pesquise sobre a nova área:
-                        Realize pesquisas aprofundadas sobre a área em que você deseja fazer a
-                        transição. Entenda as tendências, as oportunidades disponíveis, as
-                        habilidades exigidas e os desafios envolvidos.
-
-
+                    <p> Definir seus objetivos e identificar os motivos pelos quais você deseja fazer uma transição de carreira
+                        é muito importante antes de iniciar sua jornada. Isso ajudará a orientar sua trilha de
+                        aprendizagem e manter o foco durante todo o processo. Nessa trilha de aprendizagem, você explorará os principais
+                        aspectos envolvidos na mudança de carreira e descobrirá estratégias para fazer uma transição bem-sucedida. <br>
                     </p>
                     <div class="list-group">
                         <a href="https://www.tuacarreira.com/transicao-de-carreira/" class="list-group-item list-group-item-action">
                             Artigo - Transição de carreira e planejamento: a chave do sucesso
                         </a>
                         <a href="https://www.voitto.com.br/blog/artigo/transicao-de-carreira" class="list-group-item list-group-item-action"> Artigo - Veja quando fazer uma Transição
-                            de Carreira é a melhor opção e descubra como se preparar!</a>
+                            de Carreira é a melhor opção e descubra como se preparar</a>
                         <a href="https://negocios.umcomo.com.br/artigo/transicao-de-carreira-quando-e-como-fazer-30292.html" class="list-group-item list-group-item-action"> Artigo - Transição de carreira: 
                             quando e como fazer</a>
-                        <a href="#" class="list-group-item list-group-item-action"> Vídeo - </a>
+                        <a href="https://www.youtube.com/watch?v=6Uz5li1qkmg" class="list-group-item list-group-item-action"> Vídeo - 5 Sinais que você precisa mudar de carreira </a>
                         <a href="#" class="list-group-item list-group-item-action"> APP - </a>
                         <a href="#" class="list-group-item list-group-item-action"> Jogo - </a>
                         <a href="#" class="list-group-item list-group-item-action"> Guia prático </a>
@@ -153,7 +147,7 @@ include('cabecalho.php');
         <article class="accordion-item">
             <h2 class="accordion-header" id="trilha3">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres">
-                    Trilha 3 - Sistema Solar
+                    Trilha 3 - Teste
                 </button>
             </h2>
             <div id="collapseTres" class="accordion-collapse collapse" aria-labelledby="trilha3" data-bs-parent="#accordionExample">
@@ -191,7 +185,7 @@ include('cabecalho.php');
         <article class="accordion-item">
             <h2 class="accordion-header" id="trilha4">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQuatro" aria-expanded="false" aria-controls="collapseQuatro">
-                    Trilha 4 - O mapa do Brasil
+                    Trilha 4 - Teste
                 </button>
             </h2>
             <div id="collapseQuatro" class="accordion-collapse collapse" aria-labelledby="trilha4" data-bs-parent="#accordionExample">
