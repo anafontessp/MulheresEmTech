@@ -1,4 +1,6 @@
 <?php include('cabecalho.php'); ?>
+
+<!--
 <section>
         <form method="POST" action="login-consulta.php">
             <div>
@@ -20,6 +22,38 @@
         </form>
     
     </section>
+-->
+
+<div class="container-login">
+        <div class="img-box">
+            <img src="images/img-login.jpg">
+        </div>
+        <div class="content-box">
+            <div class="form-box">
+                <h2>Login</h2>
+                <form method="POST" action="login-consulta.php">
+                    <div class="input-box">
+                        <span>Email</span>
+                        <input type="email" placeholder="seuemail@mail.com" name="txEmail">
+                    </div>
+
+                    <div class="input-box">
+                        <span>Senha</span>
+                        <input type="password" placeholder="senha" name="txSenha">
+                    </div>
+
+                    <div class="input-box">
+                        <input type="submit" value="Entrar">
+                    </div>
+
+                    <div class="input-box">
+                       <p>Não Tem Uma Conta? <a href="cadastro.php">Cadastre-se</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>
+
 
 
 <?php include('rodape.php'); ?>

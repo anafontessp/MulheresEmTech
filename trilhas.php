@@ -1,10 +1,10 @@
 <?php
 session_start();
 if (!isset($_SESSION["autorizacao"]) && !isset($_SESSION["user_name"])) {
-  header("Location: index.php");
+  header("Location: login.php");
 }
 
-include('cabecalho.php');
+include('cabecalho-login.php');
 
 ?>
 

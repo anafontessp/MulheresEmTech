@@ -20,8 +20,9 @@ if(!isset($_SESSION)) {
     <title>MulheresEmTech30+</title>
 </head>
 
-<!-- nav -->
-<nav>
+<body>
+    <!-- nav -->
+    <nav>
         <div class="container">
             <div class="logo">
                 <h2>MulheresEmTech30+</h2>
@@ -30,6 +31,7 @@ if(!isset($_SESSION)) {
                 <a href="index.php">Home</a>
                 <a href="historia.php">História</a>
                 <a href="carreira.php">Carreira</a>
+                <a href="trilhas.php">Trilhas_Tech</a>
                 <?php if(isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) {?>
                     <a href="logout.php">Logout</a>
                 <?php } else { ?>
