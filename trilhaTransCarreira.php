@@ -8,9 +8,11 @@ include('cabecalho.php');
 
 ?>
 
+<br>
 <center>
     <h4>Transição profissional e os primeiros passos para planejar sua mudança de carreira.</h4>
 </center>
+<br>
 <br>
 
 <!-- cards com vídeos de apresentação -->
@@ -58,7 +60,8 @@ include('cabecalho.php');
 </div>
 
 <section>
-
+    
+    <br>
     <center>
         <h4>Olá <?php echo $_SESSION['user_name'] ?>, comece a estudar com as Trilhas_Tech.</h4>
     </center>
@@ -89,8 +92,8 @@ include('cabecalho.php');
             <div id="collapseUm" class="accordion-collapse collapse" aria-labelledby="trilha1" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <p> Definir seus objetivos e identificar os motivos pelos quais você deseja fazer uma transição de carreira
-                        é muito importante antes de iniciar sua jornada. Isso ajudará a orientar sua trilha de
-                        aprendizagem e manter o foco durante todo o processo. Nessa trilha de aprendizagem, você explorará os principais
+                        é muito importante antes de iniciar sua jornada. Esse curso ajudará a orientar sua trilha de
+                        aprendizagem e manter o foco durante todo o processo. Nessa trilha, você explorará os principais
                         aspectos envolvidos na mudança de carreira e descobrirá estratégias para fazer uma transição bem-sucedida. <br>
                     </p>
                     <div class="list-group">
@@ -101,9 +104,10 @@ include('cabecalho.php');
                             de Carreira é a melhor opção e descubra como se preparar</a>
                         <a href="https://negocios.umcomo.com.br/artigo/transicao-de-carreira-quando-e-como-fazer-30292.html" class="list-group-item list-group-item-action"> Artigo - Transição de carreira: 
                             quando e como fazer</a>
-                        <a href="https://www.youtube.com/watch?v=6Uz5li1qkmg" class="list-group-item list-group-item-action"> Vídeo - 5 Sinais que você precisa mudar de carreira </a>
-                        <a href="#" class="list-group-item list-group-item-action"> APP - </a>
-                        <a href="#" class="list-group-item list-group-item-action"> Jogo - </a>
+                        <a href="https://www.youtube.com/watch?v=6Uz5li1qkmg" class="list-group-item list-group-item-action"> Vídeo - Cinco sinais que você precisa mudar de carreira </a>
+                        <a href="https://evernote.com/intl/pt-br" class="list-group-item list-group-item-action"> APP - Ferramenta de organização pessoal</a>
+                        <a href="https://store.steampowered.com/app/448280/Job_Simulator/" class="list-group-item list-group-item-action"> Jogo - Job Simulator </a>
+                        <a href="https://estudos.vestibulares.com.br/cursos-de-ti" class="list-group-item list-group-item-action"> Teste Vocacional </a>
                         <a href="#" class="list-group-item list-group-item-action"> Guia prático </a>
                     </div>
                 </div>

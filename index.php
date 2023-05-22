@@ -12,7 +12,7 @@
                     específicos de capacitação para mulheres na tecnologia, onde suas 
                     necessidades sejam atendidas e viabilizadas, através da Educação de Qualidade.
                 </p>
-                <button class="btn">Conecte-se</button>
+                <a href="cadastro.php" button class="btn">Conecte-se</a>
             </div>
             <div class="banner__img">
                 <picture>
@@ -67,7 +67,7 @@
                     Eu tento lutar por isso. <br>É por isso que eu tenho um relógio na minha parede<br>
                     que corre ao contrário." <br> 
                     <br>Grace Hopper</h2>
-                <a href="cadastro.php" style="margin-left: auto;position: relative;z-index:9;" class="btn">Conecte-se</a>
+                <a href="cadastro.php" style="margin-left: auto;position: relative;z-index:9;" button class="btn">Cadastre-se</a>
                 <img src="images/bg-pattern-how-we-work-desktop.svg" class="pattern-find" alt="">
             </div>
     </section>
@@ -76,3 +76,4 @@
     
 
 <?php include('rodape.php'); ?>
+

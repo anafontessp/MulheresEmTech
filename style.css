@@ -238,6 +238,11 @@ img{
   text-align: center;
 }
 
+.btn{
+  background: #FFCC70;
+}
+
+
 /* footer */
 .footer {
   margin-top: 90px;
