@@ -23,11 +23,20 @@ include('cabecalho-login.php');
 <!-- end banner -->
 
 <section>
-  <center>
-    <h4>Olá <?php echo $_SESSION['user_name'] ?>, comece a estudar com as Trilhas_Tech.</h4>
-  </center>
-  <br>
+
+<?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
+            
+  <center><h4>Olá <?php echo $_SESSION['user_name']; ?>, venha estudar as Trilhas!</h4></center>
+
+<?php } else { ?>
+  
+  <center><h4>Faça Login começar a estudar as trilhas</h4></center>
+
+<?php } ?>
+<br>
 </section>
+
+<!-- Início dos cards com as trilhas -->
 
 <section class="main-section">
   <div class="main-02">
@@ -38,9 +47,25 @@ include('cabecalho-login.php');
         <div class="card-body">
           <h4 class="card-title">Transição Profissional</h4>
           <p class="card-text">Como iniciar minha transição de carreira com 30 anos? Por onde devo começar?</p>
+          </div>
+          <div class="bottom-card" >
+          <?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
+            
+            <a href="./trilhas/trilhas-tech.php" class="btn-trilha">
+              <span>Iniciar Trilha</span>
+            </a>
+
+          <?php } else { ?>
+            
+            <a href="./login.php" class="btn-trilha">
+              <span>Iniciar Trilha</span>
+            </a>
+
+          <?php } ?>
           <p class="card-saibamais"><a href="trilhaTransCarreira.php" target="_blank">Começar agora</a></p>
         </div>
       </div>
+          </div>
     </a>
 
     <div class="container card-container mt-3">
