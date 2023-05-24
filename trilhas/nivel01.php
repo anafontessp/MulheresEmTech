@@ -17,25 +17,25 @@ include('cabecalho-trilha.php');
         <!-- Home -->
         <a href="./trilhas-tech.php" class="nvl-container mt-3rem">
           <div class="nvl-title">
-            <span>Trilhas Tech</span>
+            <span>Trilhas_Tech</span>
           </div>
         </a>
         <!-- Nível 01 -->
         <div class="nvl-container current-page">
           <div class="nvl-title">
-            <span>Nível 01</span>
+            <span>Módulo 01</span>
           </div>
         </div>
         <!-- Nível 02 -->
         <a href="<?php if($_SESSION["progresso"] > 1){ echo "./nivel02.php"; } ?>" class="nvl-container <?php if($_SESSION["progresso"] < 2){ echo "disabled"; } ?>">
           <div class="nvl-title">
-            <span>Nível 02</span>
+            <span>Módulo 02</span>
           </div>
         </a>
         <!-- Nível 03 -->
         <a href="<?php if($_SESSION["progresso"] > 2){ echo "./nivel03.php"; } ?>" class="nvl-container <?php if($_SESSION["progresso"] < 3){ echo "disabled"; } ?>">
           <div class="nvl-title">
-            <span>Nível 03</span>
+            <span>Módulo 03</span>
           </div>
         </a>
       </div>
@@ -44,9 +44,43 @@ include('cabecalho-trilha.php');
   
   <section class="conteudo-main">
     <div class="conteudo-container">
-      <h1>Nível 01</h1>
-      <br>
-      <p>Conteúdo da página do nível 01</p>
+      <h1>Módulo 01</h1>
+      <h2 class="fonte-titulo mt-5">Transição de Carreira</h2>
+    <hr>
+    <!-- utilizando accordion -->
+    <section class="accordion" id="accordionExample">
+        <article class="accordion-item">
+            <h2 class="accordion-header" id="trilha1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUm" aria-expanded="false" aria-controls="collapseUm">
+                    Trilha - Como começar sua transição profissional
+                </button>
+            </h2>
+            <div id="collapseUm" class="accordion-collapse collapse" aria-labelledby="trilha1" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p> Definir seus objetivos e identificar os motivos pelos quais você deseja fazer uma transição de carreira
+                        é muito importante antes de iniciar sua jornada. Esse curso ajudará a orientar sua trilha de
+                        aprendizagem e manter o foco durante todo o processo. Nessa trilha, você explorará os principais
+                        aspectos envolvidos na mudança de carreira e descobrirá estratégias para fazer uma transição bem-sucedida. <br>
+                    </p>
+                    <div class="list-group">
+                        <a href="https://www.tuacarreira.com/transicao-de-carreira/" class="list-group-item list-group-item-action">
+                            Artigo - Transição de carreira e planejamento: a chave do sucesso
+                        </a>
+                        <a href="https://www.voitto.com.br/blog/artigo/transicao-de-carreira" class="list-group-item list-group-item-action"> Artigo - Veja quando fazer uma Transição
+                            de Carreira é a melhor opção e descubra como se preparar</a>
+                        <a href="https://negocios.umcomo.com.br/artigo/transicao-de-carreira-quando-e-como-fazer-30292.html" class="list-group-item list-group-item-action"> Artigo - Transição de carreira: 
+                            quando e como fazer</a>
+                        <a href="https://www.youtube.com/watch?v=6Uz5li1qkmg" class="list-group-item list-group-item-action"> Vídeo - Cinco sinais que você precisa mudar de carreira </a>
+                        <a href="https://evernote.com/intl/pt-br" class="list-group-item list-group-item-action"> APP - Ferramenta de organização pessoal</a>
+                        <a href="https://store.steampowered.com/app/448280/Job_Simulator/" class="list-group-item list-group-item-action"> Jogo - Job Simulator </a>
+                        <a href="https://estudos.vestibulares.com.br/cursos-de-ti" class="list-group-item list-group-item-action"> Teste Vocacional </a>
+                        <a href="#" class="list-group-item list-group-item-action"> Guia prático </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <br>
+
       <?php if($_SESSION["progresso"] < 2) { ?>
 
         <!-- Detalhe: o link passado contém o parâmetro "nível", com o valor de 1 -->

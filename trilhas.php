@@ -41,44 +41,55 @@ include('cabecalho-login.php');
 <section class="main-section">
   <div class="main-02">
 
-    <a class="card-link container card-container mt-3">
+    <div class="card-link container card-container mt-3">
       <div class="card" style="width:250px">
         <img class="card-img-top" src="images/Logo.png" alt="">
         <div class="card-body">
           <h4 class="card-title">Transição Profissional</h4>
           <p class="card-text">Como iniciar minha transição de carreira com 30 anos? Por onde devo começar?</p>
-          </div>
           <div class="bottom-card" >
           <?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
             
             <a href="./trilhas/trilhas-tech.php" class="btn-trilha">
-              <span>Iniciar Trilha</span>
+              <span>Começar agora</span>
             </a>
 
           <?php } else { ?>
             
             <a href="./login.php" class="btn-trilha">
-              <span>Iniciar Trilha</span>
+              <span>Começar agora</span>
             </a>
 
           <?php } ?>
-          <p class="card-saibamais"><a href="trilhaTransCarreira.php" target="_blank">Começar agora</a></p>
+
         </div>
       </div>
-          </div>
-    </a>
+      </div>
 
     <div class="container card-container mt-3">
       <div class="card" style="width:250px">
         <img class="card-img-top" src="images/Logo.png" alt="">
         <div class="card-body">
           <h4 class="card-title">Algoritmo</h4>
-          <p class="card-text">O Curso de Algoritmo é a base necessária para quem quer aprender em linguagens famosas do mercado, como C, Java, PHP e muitas outras. 
-          </p>
-          <p class="card-saibamais"><a href="#" target="_blank">Começar agora</a></p>
+          <p class="card-text">O Curso de Algoritmo é a base necessária para quem quer aprender em linguagens famosas do mercado, como C, Java, PHP e muitas outras. </p>
+          <div class="bottom-card" >
+          <?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
+            
+            <a href="./trilhas/trilhas-tech.php" class="btn-trilha">
+              <span>Começar agora</span>
+            </a>
+
+          <?php } else { ?>
+            
+            <a href="./login.php" class="btn-trilha">
+              <span>Começar agora</span>
+            </a>
+
+          <?php } ?>
+
         </div>
       </div>
-    </div>
+</div>
 
     <div class="container card-container mt-3">
       <div class="card" style="width:250px">
@@ -86,7 +97,21 @@ include('cabecalho-login.php');
         <div class="card-body">
           <h4 class="card-title">Lógica de Programação</h4>
           <p class="card-text">Conheça a base para ser um programador(a) e iniciar seu conhecimento em tecnologia.</p>
-          <p class="card-saibamais"><a href="#" target="_blank">Começar agora</a></p>
+          <div class="bottom-card" >
+          <?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
+            
+            <a href="./trilhas/trilhas-tech.php" class="btn-trilha">
+              <span>Começar agora</span>
+            </a>
+
+          <?php } else { ?>
+            
+            <a href="./login.php" class="btn-trilha">
+              <span>Começar agora</span>
+            </a>
+
+          <?php } ?>
+          
         </div>
       </div>
     </div>
@@ -97,7 +122,21 @@ include('cabecalho-login.php');
         <div class="card-body">
           <h4 class="card-title">HTML5</h4>
           <p class="card-text">Aprenda HTML5, CSS3 e JavaScript enquanto monta um site completo com essas tecnologias.</p>
-          <p class="card-saibamais"><a href="#" target="_blank">Começar agora</a></p>
+          <div class="bottom-card" >
+          <?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
+            
+            <a href="./trilhas/trilhas-tech.php" class="btn-trilha">
+              <span>Começar agora</span>
+            </a>
+
+          <?php } else { ?>
+            
+            <a href="./login.php" class="btn-trilha">
+              <span>Começar agora</span>
+            </a>
+
+          <?php } ?>
+
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ include('cabecalho-trilha.php');
         <!-- Home -->
         <div class="nvl-container mt-3rem current-page">
           <div class="nvl-title">
-            <span>Trilhas Tech</span>
+            <span>Trilhas_Tech</span>
           </div>
         </div>
         <!-- Nível 01 -->
@@ -44,9 +44,14 @@ include('cabecalho-trilha.php');
   
   <section class="conteudo-main">
     <div class="conteudo-container">
-      <h1>Trilhas Tech</h1>
+      <h1>Transição Profissional</h1>
       <br>
-      <p>Conteúdo da página Trilhas Tech(Sobre o que é essa trilha? Qual objetivo da trilha? Ao terminar a trilha, quais serão os conhecimentos adiquiridos? etc...)</p>
+      <p>Começar a transição de carreira profissional envolve planejamento e uma organização
+        cuidadosa. Vamos apresentar nesse curso algumas dicas para ajudar você no
+        início dessa jornada.
+        Ao longo da transição de carreira, esteja aberto a aprender com a experiência.
+        Esteja disposto a adaptar sua trilha de aprendizagem com base no feedback recebido,
+        nas oportunidades que surgirem e nas mudanças do mercado.</p>
     </div>
   </section>
 </main>

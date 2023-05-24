@@ -22,25 +22,25 @@ include('cabecalho-trilha.php');
         <!-- Home -->
         <a href="./trilhas-tech.php" class="nvl-container mt-3rem">
           <div class="nvl-title">
-            <span>Trilhas Tech</span>
+            <span>Trilhas_Tech</span>
           </div>
         </a>
         <!-- Nível 01 -->
         <a href="./nivel01.php" class="nvl-container">
           <div class="nvl-title">
-            <span>Nível 01</span>
+            <span>Módulo 01</span>
           </div>
         </a>
         <!-- Nível 02 -->
         <a class="nvl-container current-page">
           <div class="nvl-title">
-            <span>Nível 02</span>
+            <span>Módulo 02</span>
           </div>
         </a>
         <!-- Nível 03 -->
         <a href="<?php if($_SESSION["progresso"] > 2){ echo "./nivel03.php"; } ?>" class="nvl-container <?php if($_SESSION["progresso"] < 3){ echo "disabled"; } ?>">
           <div class="nvl-title">
-            <span>Nível 03</span>
+            <span>Módulo 03</span>
           </div>
         </a>
       </div>
@@ -49,9 +49,48 @@ include('cabecalho-trilha.php');
   
   <section class="conteudo-main">
     <div class="conteudo-container">
-      <h1>Nível 02</h1>
-      <br>
-      <p>Conteúdo da página do nível 02</p>
+      <h1>Módulo 02</h1>
+      <h2 class="fonte-titulo mt-5">Transição de Carreira</h2>
+      <hr>
+      <!-- utilizando accordion -->
+      <section class="accordion" id="accordionExample">
+      <article class="accordion-item">
+            <h2 class="accordion-header" id="trilha2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDois" aria-expanded="false" aria-controls="collapseDois">
+                    Trilha - 10 mulheres para você se inspirar na sua carreira
+                </button>
+            </h2>
+            <div id="collapseDois" class="accordion-collapse collapse" aria-labelledby="trilha2" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p> Historicamente, a desigualdade de gênero tem afetado a vida das mulheres. Se, no passado, elas eram reduzidas a uma única função,
+                        a de cuidar da vida doméstica, pode-se dizer que hoje elas ocupam uma variedade muito maior de espaços. Mas, ainda assim, 
+                        problemas ligados à desigualdade de gênero persistem, tal como os salários menores que os dos homens, mesmo ambos ocupando
+                        o mesmo cargo. O Dia Internacional da Mulher é uma forma de reconhecer e celebrar a luta e as conquistas das mulheres. 
+                        Pensando nisso, reunimos 10 mulheres referências em seus segmentos para você se inspirar na sua carreira. Confira abaixo 
+                        a lista de grandes nomes e suas respectivas profissões.
+                    </p>
+                    <div class="list-group">
+                        <a href="https://unifei.edu.br/personalidades-do-muro/extensao/enedina-alves/" class="list-group-item list-group-item-action">
+                            Artigo - Enedina Alves - Engenheira Civil
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=p3wpczJM2jg&t=1s" class="list-group-item list-group-item-action"> Vídeo - Homenagem à Enedina Alves</a>
+                        <a href="https://www.ebiografia.com/zilda_arns/" class="list-group-item list-group-item-action"> Artigo - Zilda Arns: Médica</a>
+                        <a href="https://agenciadenoticias.uniceub.br/destaque/45-anos-sem-bertha-lutz-quem-foi-a-cientista-e-ativista-revolucionaria/" class="list-group-item list-group-item-action">Artigo - Bertha Lutz - Bióloga</a>
+                        <a href="https://www.soquimica.com.br/biografias/marie_curie/" class="list-group-item list-group-item-action"> Artigo - Marie Curie: Química</a>
+                        <a href="https://www.youtube.com/watch?v=CooRJoRPsGk&t=1s" class="list-group-item list-group-item-action"> Vídeo - Você sabe quem foi Marie Curie?</a>
+                        <a href="https://casacor.abril.com.br/profissionais/lina-bo-bardi-obras/" class="list-group-item list-group-item-action"> Artigo - Lina Bo Bardi: Arquiteta</a>
+                        <a href="https://www.youtube.com/watch?v=9fwtwODu4bo&t=4s" class="list-group-item list-group-item-action"> Vídeo - Lina Bo Bardi: Influências e Heranças na Bahia</a>
+                        <a href="https://www.cbdu.org.br/brasileiras-que-fizeram-historia-daiane-dos-santos/" class="list-group-item list-group-item-action"> Artigo - Daiane dos Santos: Atleta</a>
+                        <a href="https://primeirosnegros.com/ida-b-wells-barnett-pioneira-na-cruzada-pela-justica-aos-negros-dos-eua/" class="list-group-item list-group-item-action"> Artigo - Ida B. Wells: Jornalista</a>
+                        <a href="https://nationalgeographic.pt/historia/grandes-reportagens/2931-amelia-earhart-a-pioneira-que-se-perdeu-no-oceano" class="list-group-item list-group-item-action"> Artigo - Amelia Earhart: Aviadora</a>
+                        <a href="https://www.ufrgs.br/enigma/margaret-hamilton/" class="list-group-item list-group-item-action"> Artigo - Margaret Heafield Hamilton: Cientista da Computação</a>
+                        <a href="https://www.uc.pt/fctuc/dmat/departamento/bibliomat/servicos/matematicos/Noether-E" class="list-group-item list-group-item-action"> Artigo - Emmy Noether: Matemática</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <br>
+
       <?php if($_SESSION["progresso"] < 3) { ?>
 
         <!-- Detalhe: o link passado contém o parâmetro "nível", com o valor de 2 -->
