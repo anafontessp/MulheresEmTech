@@ -75,7 +75,7 @@ include('cabecalho-login.php');
           <div class="bottom-card" >
           <?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
             
-            <a href="./trilhas/trilhas-tech.php" class="btn-trilha">
+            <a href="#" class="btn-trilha">
               <span>Começar agora</span>
             </a>
 
@@ -100,7 +100,7 @@ include('cabecalho-login.php');
           <div class="bottom-card" >
           <?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
             
-            <a href="./trilhas/trilhas-tech.php" class="btn-trilha">
+            <a href="#" class="btn-trilha">
               <span>Começar agora</span>
             </a>
 
@@ -125,7 +125,7 @@ include('cabecalho-login.php');
           <div class="bottom-card" >
           <?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
             
-            <a href="./trilhas/trilhas-tech.php" class="btn-trilha">
+            <a href="#" class="btn-trilha">
               <span>Começar agora</span>
             </a>
 

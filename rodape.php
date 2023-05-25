@@ -21,8 +21,8 @@
                 <div>
                     <h3>Empresa</h3>
                     <ul class="nav-links">
-                        <a href="#">Sobre nós</a>
-                        <a href="#">Equipe</a>
+                        <a href="README.md">Sobre nós</a>
+                        <a href="README.md">Equipe</a>
                         <a href="#">Cursos</a>
                         <a href="#">Trabalhe Conosco</a>
                     </ul>
@@ -31,8 +31,8 @@
                     <h3>Suporte</h3>
                     <ul class="nav-links">
                         <a href="#">FAQ</a>
-                        <a href="#">Termos de uso</a>
-                        <a href="#">Política de Privacidade</a>
+                        <a href="README.md">Termos de uso</a>
+                        <a href="README.md">Política de Privacidade</a>
                         <a href="#">Cookies</a>
                     </ul>
                 </div>
@@ -47,9 +47,9 @@
                 <div>
                     <h3>Outros</h3>
                     <ul class="nav-links">
-                        <a href="#">Carreiras</a>
+                        <a href="carreira.php">Carreiras</a>
                         <a href="#">Imprensa</a>
-                        <a href="#">Licenças</a>
+                        <a href="README.md">Licenças</a>
                     </ul>
                 </div>
             </div>

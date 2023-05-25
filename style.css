@@ -152,6 +152,7 @@ img{
 }
 
 /* end banner */
+
 .diferent {
   margin-top: 0;
 }
@@ -260,7 +261,7 @@ img{
   text-align: center;
 }
 
-.btn{
+.btn-cadastro {
   background-color:	#2685BF;
 }
 
