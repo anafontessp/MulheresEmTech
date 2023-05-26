@@ -17,7 +17,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-O intuito do MulheresEmTech30+ é criar programas específicos de capacitação para mulheres com mais de 30 anos que estão em transição profissional para a área da tecnologia, onde suas necessidades sejam atendidas e viabilizadas, através de uma educação de qualidade. Em 2021 foram entrevistadas 3 mulheres para o Projeto MuheresEmTech, onde elas compartilharam um pouco de suas experiências como profissionais na área de tecnologia e como o gênero influencia na carreira e no ambiente de trabalho. 
+O intuito do MulheresEmTech30+ é criar programas específicos de capacitação para mulheres a partir dos 30 anos que estão em transição profissional para a área da tecnologia, onde suas necessidades sejam atendidas e viabilizadas, através de uma educação de qualidade. Em 2021 foram entrevistadas 3 mulheres para o Projeto MuheresEmTech, onde elas compartilharam um pouco de suas experiências como profissionais na área de tecnologia e como o gênero influencia na carreira e no ambiente de trabalho. 
 O projeto é baseado nos ODS (Objetivos de Desenvolvimento Sustentável) da ONU (Organização das Nações Unidas), onde abordamos 2 temas, a ODS 4 e 5 que são Igualdade de Gênero e Educação de Qualidade. O intuito é entender as necessidades e as dificuldades que pessoas que se identifiquem com o gênero feminino enfrentam no setor de Tecnologia da Informação, e criar meios para que num futuro próximo tenham maior representatividade, ou seja, que o gênero e a idade não sejam fatores determinantes para a escolha de um profissional.
 </p>
 
@@ -42,7 +42,7 @@ O projeto é baseado nos ODS (Objetivos de Desenvolvimento Sustentável) da ONU 
 <h3>Front-end</h3>
 <ul>
     <li><b>Status: </b>em progresso.</li>
-    <li><b>Tecnologias: </b>HTML, Php e CSS.</li>
+    <li><b>Tecnologias: </b>HTML, Javascript, Php e CSS.</li>
     <li><b>Framework: Laravel</b></li>
 </ul>
 <h3>Back-end</h3>
@@ -72,7 +72,7 @@ O projeto é baseado nos ODS (Objetivos de Desenvolvimento Sustentável) da ONU 
 
 <h2>Curso:</h2> Técnico de Desenvolvimento de Sistemas - Etec Professor Camargo Aranha 2023;
 
-<h2>Professores:</h2> Aline Carvalho, Bruno Cano, João P. Siles, Juarez Brandão, Orlando Gomes e Thiago Pascotto; <br>
+<h2>Professores:</h2> Aline Carvalho, Bruno Cano, Davi Vilar, João P. Siles, Juarez Brandão, Orlando Gomes e Thiago Pascotto; <br>
 
 <p align="justify">
 <h2>Agradecimentos:</h2> O projeto MulheresEmTech foi elaborado graças a toda infraestrutura de formação da Etec, ao conhecimento, instruções e dedicação dos professores. Aos nossos familiares que nos apoiaram durante toda essa jornada de aprendizado, amigos e colegas de turma. </p>
