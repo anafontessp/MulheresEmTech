@@ -17,7 +17,7 @@ try{
 catch(PDOException $e){
     echo "Consulta ao banco de dados falhou" . $e ->getMessage();
 }
-$_SESSION['progresso'] = $progressoBanco;
+$_SESSION["progresso"] = $progressoBanco;
 ?>
 
 <!DOCTYPE html>

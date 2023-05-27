@@ -13,16 +13,17 @@
     $senhaBanco= "";
 
     try{
-        $stmt = $pdo -> prepare("select nome, email, senha, progresso from tbCadastro where email='$email' and senha='$senha'");
+        $stmt = $pdo -> prepare("select idUsuario, nome, email, senha, progresso from tbCadastro where email='$email' and senha='$senha'");
 
         $stmt ->execute();
 
         while($row = $stmt->fetch(PDO::FETCH_BOTH)){
+            $idBanco = $row['idUsuario'];
             $nomeBanco = $row['nome'];
             $emailBanco = $row['email'];
             $senhaBanco = $row['senha'];
-            unset($row['senha']);
             $progressoBanco = $row['progresso'];
+            unset($row['senha']);
         }
     }
     catch(PDOException $e){
@@ -32,6 +33,7 @@
     //verificação para autenticação
     if($email == $emailBanco && $senha == $senhaBanco){
         $_SESSION["autorizacao"] = "true";
+        $_SESSION["user_id"] = $idBanco;
         $_SESSION["user_name"] = $nomeBanco;
         $_SESSION["progresso"] = $progressoBanco;
         unset($senhaBanco); //destruição da variável $senhaBanco
