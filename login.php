@@ -26,7 +26,7 @@
 
 <div class="container-login">
         <div class="img-box">
-            <img src="images/img-login.jpg">
+            <img src="images/login.png">
         </div>
         <div class="content-box">
             <div class="form-box">

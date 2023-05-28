@@ -102,11 +102,8 @@ include('cabecalho-trilha.php');
             </div>
         </article>
 
-    </section>
-
 </div>
-
-
-  </section>
+</section>
+</section>
   
 </main>

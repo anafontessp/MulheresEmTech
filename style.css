@@ -151,6 +151,10 @@ img{
   right: 0;
 }
 
+.btn {
+  background-color: #2685BF;
+}
+
 /* end banner */
 
 .diferent {
@@ -265,6 +269,9 @@ img{
   background-color:	#2685BF;
 }
 
+/* cards trilhas index */
+/*end trilhas*/
+
 /* footer */
 .footer {
   margin-top: 90px;
@@ -370,7 +377,7 @@ img{
 }
 
 .trilha-main {
-  width: 100%;
+  width: 96%;
   display: flex;
 }
 

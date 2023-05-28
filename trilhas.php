@@ -26,11 +26,11 @@ include('cabecalho-login.php');
 
 <?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
             
-  <center><h4>Olá <?php echo $_SESSION['user_name']; ?>, venha estudar as Trilhas!</h4></center>
+  <center><h4>Olá <?php echo $_SESSION['user_name']; ?>, venha estudar as Trilhas_Tech!</h4></center>
 
 <?php } else { ?>
   
-  <center><h4>Faça Login começar a estudar as trilhas</h4></center>
+  <center><h4>Faça seu login para começar a estudar as trilhas</h4></center>
 
 <?php } ?>
 <br>

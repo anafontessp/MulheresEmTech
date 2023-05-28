@@ -7,10 +7,14 @@
                 <h1>Afinal o que é MulheresEmTech30+?</h1>
                 <p>
                     Acreditamos que todos somos responsáveis pela educação inclusiva,
-                    para que num futuro próximo tenhamos mais oportunidades 
-                    e menos desigualdade. O intuito desse projeto é criar programas 
-                    específicos de capacitação para mulheres na tecnologia, onde suas 
-                    necessidades sejam atendidas e viabilizadas, através da Educação de Qualidade.
+                    para que num futuro próximo tenhamos mais oportunidades e menos
+                    desigualdade.<br>
+                    O objetivo desse projeto é compartilhar trilhas de aprendizagem 
+                    com conteúdo para orientar mulheres a partir dos 30 anos que gostariam 
+                    de fazer uma transição de carreira para a área da tecnologia.<br> 
+                    O nosso intuito é criar programas específicos de capacitação
+                    para mulheres na tecnologia, onde suas necessidades sejam atendidas e viabilizadas,
+                    através da Educação de Qualidade. Participe e junte-se a nós!
                 </p>
                 <button class="btn">Conecte-se</button>
             </div>
