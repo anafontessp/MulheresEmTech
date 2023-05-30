@@ -4,7 +4,7 @@ if (!isset($_SESSION["autorizacao"]) && !isset($_SESSION["user_name"])) {
   header("Location: login.php");
 }
 
-include('cabecalho-login.php');
+include('cabecalho.php');
 
 ?>
 

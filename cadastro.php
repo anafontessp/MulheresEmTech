@@ -36,21 +36,21 @@
 
                     <div class="input-box">
                         <span>Nome</span>
-                        <input type="text" placeholder="Nome Completo" name="txNome">
+                        <input type="text" placeholder="Nome Completo" name="txNome" required />
                     </div>
 
                     <div class="input-box">
                         <span>Email</span>
-                        <input type="email" placeholder="Insira seu Email" name="txEmail" >
+                        <input type="email" placeholder="Insira seu Email" name="txEmail" required />
                     </div>
 
                     <div class="input-box">
                         <span>Senha</span>
-                        <input type="password" placeholder="senha" name="txSenha">
+                        <input type="password" placeholder="senha" name="txSenha" required />
                     </div>
 
                     <div class="input-box">
-                        <input type="submit" value="Cadastrar">
+                        <input type="submit" name="submit" value="Cadastrar">
                     </div>
                 </form>
             </div>

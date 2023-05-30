@@ -34,16 +34,16 @@
                 <form method="POST" action="login-consulta.php">
                     <div class="input-box">
                         <span>Email</span>
-                        <input type="email" placeholder="seuemail@mail.com" name="txEmail">
+                        <input type="email" placeholder="seuemail@mail.com" name="txEmail" required />
                     </div>
 
                     <div class="input-box">
                         <span>Senha</span>
-                        <input type="password" placeholder="senha" name="txSenha">
+                        <input type="password" placeholder="senha" name="txSenha" required />
                     </div>
 
                     <div class="input-box">
-                        <input type="submit" value="Entrar">
+                        <input type="submit" name="submit" value="Entrar" required />
                     </div>
 
                     <div class="input-box">

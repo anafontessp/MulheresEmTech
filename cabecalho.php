@@ -31,6 +31,7 @@ if(!isset($_SESSION)) {
                 <a href="historia.php">História</a>
                 <a href="carreira.php">Carreira</a>
                 <?php if(isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) {?>
+                    <a href="trilhas.php">Trilhas_Tech</a>
                     <a href="logout.php">Logout</a>
                 <?php } else { ?>
                     <a href="login.php">Login</a>
