@@ -11,7 +11,7 @@ include('cabecalho-trilha.php');
 
 <main class="trilha-main">
   
-  <section class="nvl-main">
+  <section class="nvl-main" id="nvlContainer">
     <div class="nvl-column-container">
       <div class="nvl-column">
         <!-- Home -->
@@ -55,16 +55,16 @@ include('cabecalho-trilha.php');
         
     </div>
 
-<!-- cards com vídeos de apresentação -->
+    <!-- cards com vídeos de apresentação -->
 
-<br>
-<center>
-    <h4>Transição profissional e os primeiros passos para planejar sua mudança de carreira</h4>
-</center>
-<br>
+    <br>
+    <center>
+        <h4>Transição profissional e os primeiros passos para planejar sua mudança de carreira</h4>
+    </center>
+    <br>
 
-<div class="container">
-    <section class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+    <div class="container">
+      <section class="row row-cols-1 row-cols-md-3 g-4 mb-5">
         <article class="col">
             <div class="card h-100 border-color">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/LhyOd2NGvk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -101,9 +101,9 @@ include('cabecalho-trilha.php');
                 </div>
             </div>
         </article>
-
-</div>
-</section>
-</section>
-  
+      </div>
+    </section>
+  </section>
 </main>
+
+<script type="text/javascript" src="../script.js"></script>

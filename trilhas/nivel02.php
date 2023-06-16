@@ -16,7 +16,7 @@ include('cabecalho-trilha.php');
 
 <main class="trilha-main">
   
-  <section class="nvl-main">
+  <section class="nvl-main" id="nvlContainer">
     <div class="nvl-column-container">
       <div class="nvl-column">
         <!-- Home -->
@@ -68,3 +68,6 @@ include('cabecalho-trilha.php');
     </div>
   </section>
 </main>
+
+
+<script type="text/javascript" src="../script.js"></script>

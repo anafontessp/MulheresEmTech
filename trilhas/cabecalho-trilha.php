@@ -32,7 +32,6 @@ $_SESSION["progresso"] = $progressoBanco;
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"/>
     
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../script.js">
     <title>MulheresEmTech30+</title>
 </head>
 
@@ -49,6 +48,11 @@ $_SESSION["progresso"] = $progressoBanco;
         <div class="logo-container">
             <div class="logo">
                 <span>MulheresEmTech30+</span>
+            </div>
+        </div>
+        <div class="nav-800">
+            <div class="menu-icon" id="menuBtn">
+                <img src="../images/icon-hamburger.svg">
             </div>
         </div>
     </nav>
