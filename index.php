@@ -6,17 +6,16 @@
             <div class="line"></div>
             <h1>Afinal o que é MulheresEmTech30+?</h1>
             <p>
-                Acreditamos que todos somos responsáveis pela educação inclusiva,
-                para que num futuro próximo tenhamos mais oportunidades e menos
-                desigualdade.<br>
                 O objetivo desse projeto é compartilhar trilhas de aprendizagem
-                com conteúdo para orientar mulheres a partir dos 30 anos que gostariam
-                de fazer uma transição de carreira para a área da tecnologia.<br>
-                O nosso intuito é criar programas específicos de capacitação
-                para mulheres na tecnologia, onde suas necessidades sejam atendidas e viabilizadas,
-                através da Educação de Qualidade. Participe e junte-se a nós!
+                com conteúdo para capacitar mulheres a partir dos 30 anos que queiram
+                fazer sua transição profissional para a área da tecnologia.<br>
+                O MulheresEmTech30+ acredita que todos somos responsáveis por uma educação
+                inclusiva, de qualidade e igualitária, para que num futuro próximo tenhamos
+                mais oportunidades e menos desigualdade, e que o gênero de uma pessoa 
+                não seja o fator determinante na escolha de um profissional.<br>
+                Participe e faça parte dessa mudança!
             </p>
-            <a href="cadastro.php" button class="btn">Conecte-se</a>
+            <a href="cadastro.php" button class="btn">Cadastre-se</a>
         </div>
         <div class="banner__img">
             <picture>

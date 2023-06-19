@@ -23,8 +23,8 @@
                     <ul class="nav-links">
                         <a href="README.md">Sobre nós</a>
                         <a href="README.md">Equipe</a>
-                        <a href="#">Cursos</a>
-                        <a href="#">Trabalhe Conosco</a>
+                        <a href="trilhas.php">Trilhas</a>
+                        <a href="#">Carreira</a>
                     </ul>
                 </div>
                 <div>
@@ -48,7 +48,7 @@
                     <h3>Outros</h3>
                     <ul class="nav-links">
                         <a href="carreira.php">Carreiras</a>
-                        <a href="#">Imprensa</a>
+                        <a href="index.php">Contatos</a>
                         <a href="README.md">Licenças</a>
                     </ul>
                 </div>
