@@ -35,7 +35,7 @@ O projeto é baseado nos ODS (Objetivos de Desenvolvimento Sustentável) da ONU 
 
 ## Layout ou Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação: https://anafontessp.github.io/TCCETECMulheresEmTech/
+> Link do deploy da aplicação: https://anafontessp.github.io/TCCMulheresEmTech30
 
 ## Linguagens, dependências e libs utilizadas :books:
 
@@ -43,14 +43,12 @@ O projeto é baseado nos ODS (Objetivos de Desenvolvimento Sustentável) da ONU 
 <ul>
     <li><b>Status: </b>em progresso.</li>
     <li><b>Tecnologias: </b>HTML, Javascript, Php e CSS.</li>
-    <li><b>Framework: Laravel</b></li>
 </ul>
 <h3>Back-end</h3>
-
+    <li>Javascript e Php</li>
 <ul>
     <li><b>Status: </b>em progresso.</li>   
-    <li><b>Tecnologias: </b>Java e Spring</li>
-    <li><b>Observações: </b> Foi utilizada a linguagem Java (Estrutura de dados Classes) para o padrão de projeto MVC (implementado o CRUD para as tabelas do modelo de dados).</li>
+    <li><b>Observações: </b> Foi utilizada a linguagem SQL (Banco de dados) e MVC (implementado o CRUD para as tabelas do modelo de dados).</li>
 </ul>
 <h3>Base de dados</h3>
 <ul>
