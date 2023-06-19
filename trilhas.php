@@ -43,7 +43,7 @@ include('cabecalho.php');
 
     <div class="card-link container card-container mt-3">
       <div class="card" style="width:250px">
-        <img class="card-img-top" src="images/Logo.png" alt="">
+        <img class="card-img-top" src="images/transicao.jpg" alt="">
         <div class="card-body">
           <h4 class="card-title">Transição Profissional</h4>
           <p class="card-text">Como iniciar minha transição de carreira com 30 anos? Por onde devo começar?</p>
@@ -68,7 +68,7 @@ include('cabecalho.php');
 
     <div class="container card-container mt-3">
       <div class="card" style="width:250px">
-        <img class="card-img-top" src="images/Logo.png" alt="">
+        <img class="card-img-top" src="images/inspire.png" alt="">
         <div class="card-body">
           <h4 class="card-title">Algoritmo</h4>
           <p class="card-text">O Curso de Algoritmo é a base necessária para quem quer aprender em linguagens famosas do mercado, como C, Java, PHP e muitas outras. </p>
@@ -93,7 +93,7 @@ include('cabecalho.php');
 
     <div class="container card-container mt-3">
       <div class="card" style="width:250px">
-        <img class="card-img-top" src="images/Logo.png" alt="">
+        <img class="card-img-top" src="images/logica.png" alt="">
         <div class="card-body">
           <h4 class="card-title">Lógica de Programação</h4>
           <p class="card-text">Conheça a base para ser um programador(a) e iniciar seu conhecimento em tecnologia.</p>
@@ -118,7 +118,7 @@ include('cabecalho.php');
 
     <div class="container card-container mt-3">
       <div class="card" style="width:250px">
-        <img class="card-img-top" src="images/Logo.png" alt="">
+        <img class="card-img-top" src="images/transicao.jpg" alt="">
         <div class="card-body">
           <h4 class="card-title">HTML5</h4>
           <p class="card-text">Aprenda HTML5, CSS3 e JavaScript enquanto monta um site completo com essas tecnologias.</p>

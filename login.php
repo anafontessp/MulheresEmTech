@@ -23,10 +23,10 @@
     
     </section>
 -->
-
+</conteiner>
 <div class="container-login">
         <div class="img-box">
-            <img src="images/login.png">
+            <img src="images/Logo.png">
         </div>
         <div class="content-box">
             <div class="form-box">
@@ -53,7 +53,7 @@
             </div>
         </div>
 </div>
-
+<conteiner>
 
 
 <?php include('rodape.php'); ?>

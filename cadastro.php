@@ -27,7 +27,7 @@
 
 <div class="container-login">
         <div class="img-box">
-            <img src="images/cadastro.png">
+            <img src="images/we.jpg" height="1%" width="1%";>
         </div>
         <div class="content-box">
             <div class="form-box">

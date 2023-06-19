@@ -15,7 +15,7 @@
                 não seja o fator determinante na escolha de um profissional.<br>
                 Participe e faça parte dessa mudança!
             </p>
-            <a href="cadastro.php" button class="btn">Cadastre-se</a>
+            <center><a href="cadastro.php" button class="btn">Cadastre-se</a></center>
         </div>
         <div class="banner__img">
             <picture>
@@ -63,17 +63,53 @@
 </section>
 <!-- end diferent -->
 <!-- section find -->
-<section class="find">
+
+<!-- cards com vídeos de apresentação -->
+
+<br>
+    <center>
+        <h4>Conheça as Trilhas_Tech</h4>
+    </center>
+    <br>
+
     <div class="container">
-        <div class="find-background">
-        <h2 class="h2">"As pessoas são alérgicas a mudanças. Elas adoram dizer: <br>'Nós sempre fizemos assim.'
-        Eu tento lutar por isso. <br>É por isso que eu tenho um relógio na minha parede<br>
-        que corre ao contrário." <br>
-        <br>Grace Hopper</h2>
-    <img src="images/bg-pattern-how-we-work-desktop.svg" class="pattern-find" alt="">
-    </div>
-    </div>
-</section>
+      <section class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+        <article class="col">
+            <div class="card h-100 border-color">
+            <img class="card-img-top"src="images/inspire.png" alt="">
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Transição de Carreira</h5>
+                    <p class="card-text">Como fazer para iniciar minha transição de carreira com 30 anos? Por onde devo começar?</p>
+                    </div>
+            </div>
+
+        </article>
+        <article class="col">
+            <div class="card h-100 border-color">
+            <img class="card-img-top"src="images/transicao.jpg" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Algoritmo</h5 <p class="card-text">O Curso de Algoritmo é a base necessária para quem quer aprender em linguagens famosas do mercado, como C, Java, PHP e muitas outras.</p>
+                </div>
+            </div>
+        </article>
+        <article class="col">
+            <div class="card h-100 border-color">
+            <img class="card-img-top"src="images/logica" alt="">
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title">Lógica de Programação</h5>
+                    <p class="card-text"> Conheça a base para ser um programador(a) e iniciar seu conhecimento em tecnologia.</p>
+                </div>
+            </div>
+        </article>
+      </div>
+    </section>
+  </section>
+</main>
+
+<script type="text/javascript" src="../script.js"></script>
+
 <!-- end section find -->
 
 
