@@ -732,7 +732,6 @@ img{
 
 .content-box {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 50%;
   height: 100%;
@@ -740,6 +739,7 @@ img{
 
 .content-box .form-box {
   width: 50%;
+  margin-left: 6rem;
 }
 
 .content-box .form-box .ul {
