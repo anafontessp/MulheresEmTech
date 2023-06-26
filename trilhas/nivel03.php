@@ -51,7 +51,7 @@ include('cabecalho-trilha.php');
     <div class="conteudo-container">
       <h1>Módulo 03</h1>
       <br>
-      <p> Nessa trilha, você explorará os principais conceitos para iniciar na área da Tecnologia e é a base 
+      <p> Nessa trilha, você explorará os principais conceitos para iniciar na área da Tecnologia e serve como base 
           para aprender qualquer linguagem de programação.</p>
 
     <!-- utilizando accordion -->
@@ -66,18 +66,15 @@ include('cabecalho-trilha.php');
                 <div class="accordion-body">
                     <p> Trilha Algoritmo</p>
                     <div class="list-group">
-                        <a href="https://www.tuacarreira.com/transicao-de-carreira/" class="list-group-item list-group-item-action">
-                            Artigo - Transição de carreira e planejamento: a chave do sucesso
-                        </a>
-                        <a href="https://www.voitto.com.br/blog/artigo/transicao-de-carreira" class="list-group-item list-group-item-action"> Artigo - Veja quando fazer uma Transição
-                            de Carreira é a melhor opção e descubra como se preparar</a>
-                        <a href="https://negocios.umcomo.com.br/artigo/transicao-de-carreira-quando-e-como-fazer-30292.html" class="list-group-item list-group-item-action"> Artigo - Transição de carreira: 
-                            quando e como fazer</a>
+                        <a href="https://youtu.be/8mei6uVttho" class="list-group-item list-group-item-action">
+                            Vídeo - Introdução a Algoritmos - Algoritmos #01 </a>
+                        <a href="https://youtu.be/M2Af7gkbbro" class="list-group-item list-group-item-action"> Vídeo - Primeiro Algoritmo - Algoritmos #02 </a>
+                        <a href="https://https://youtu.be/RDrfZ-7WE8c" class="list-group-item list-group-item-action"> Vídeo - Comando de Entrada e Operadores - Algoritmos #03 </a>
                         <a href="https://www.youtube.com/watch?v=6Uz5li1qkmg" class="list-group-item list-group-item-action"> Vídeo - Cinco sinais que você precisa mudar de carreira </a>
                         <a href="https://evernote.com/intl/pt-br" class="list-group-item list-group-item-action"> APP - Ferramenta de organização pessoal</a>
                         <a href="https://store.steampowered.com/app/448280/Job_Simulator/" class="list-group-item list-group-item-action"> Jogo - Job Simulator </a>
                         <a href="https://estudos.vestibulares.com.br/cursos-de-ti" class="list-group-item list-group-item-action"> Teste Vocacional </a>
-                        <a href="#" class="list-group-item list-group-item-action"> Guia prático </a>
+                        <a href="#" class="list-group-item list-group-item-action"> Guia prático </a> 
                     </div>
                 </div>
             </div>
