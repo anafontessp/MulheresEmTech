@@ -70,11 +70,18 @@ include('cabecalho-trilha.php');
                             Vídeo - Introdução a Algoritmos - Algoritmos #01 </a>
                         <a href="https://youtu.be/M2Af7gkbbro" class="list-group-item list-group-item-action"> Vídeo - Primeiro Algoritmo - Algoritmos #02 </a>
                         <a href="https://https://youtu.be/RDrfZ-7WE8c" class="list-group-item list-group-item-action"> Vídeo - Comando de Entrada e Operadores - Algoritmos #03 </a>
-                        <a href="https://www.youtube.com/watch?v=6Uz5li1qkmg" class="list-group-item list-group-item-action"> Vídeo - Cinco sinais que você precisa mudar de carreira </a>
-                        <a href="https://evernote.com/intl/pt-br" class="list-group-item list-group-item-action"> APP - Ferramenta de organização pessoal</a>
-                        <a href="https://store.steampowered.com/app/448280/Job_Simulator/" class="list-group-item list-group-item-action"> Jogo - Job Simulator </a>
-                        <a href="https://estudos.vestibulares.com.br/cursos-de-ti" class="list-group-item list-group-item-action"> Teste Vocacional </a>
-                        <a href="#" class="list-group-item list-group-item-action"> Guia prático </a> 
+                        <a href="https://youtu.be/Ig4QZNpVZYs" class="list-group-item list-group-item-action"> Vídeo - Operadores Lógicos e Relacionais - Algoritmos #04 </a>
+                        <a href="https://youtu.be/GrPkuk1ezyo" class="list-group-item list-group-item-action"> Vídeo - Introdução ao Scratch - Algoritmos #05</a>
+                        <a href="https://youtu.be/v2nCgGSVCeE" class="list-group-item list-group-item-action"> Vídeo - Exercícios de Algoritmo Resolvidos - Algoritmos #06 </a>
+                        <a href="https://youtu.be/_g05aHdBAEY" class="list-group-item list-group-item-action"> Vídeo - Estruturas Condicionais 1 - Algoritmos #07 </a>
+                        <a href="https://youtu.be/7gGFHzqh4d8" class="list-group-item list-group-item-action"> Vídeo - Estruturas Condicionais 2 - Algoritmos #08 </a>
+                        <a href="https://youtu.be/U5PnCt58Q68" class="list-group-item list-group-item-action"> Vídeo - Estruturas de Repetição 1 - Algoritmos #09 </a>
+                        <a href="https://youtu.be/fP49L1i_-HU" class="list-group-item list-group-item-action"> Vídeo - Estruturas de Repetição 2 - Algoritmos #10 </a>
+                        <a href="https://youtu.be/WJQz20i7CyI" class="list-group-item list-group-item-action"> Vídeo - Estruturas de Repetição 3 - Algoritmos #11 </a>
+                        <a href="https://youtu.be/KoNehy7rn8U" class="list-group-item list-group-item-action"> Vídeo - Procedimentos - Algoritmos #12 </a>
+                        <a href="https://youtu.be/-nNx7e8GzHQ" class="list-group-item list-group-item-action"> Funções - Algoritmos #13 </a>
+                        <a href="https://youtu.be/j9473xQ39vY?list=RDCMUCrWvhVmt0Qac3HgsjQK62FQ" class="list-group-item list-group-item-action"> Vídeo - Vetores - Algoritmos #14 </a>
+                        <a href="https://youtu.be/hkE9WrjpAAk" class="list-group-item list-group-item-action"> Vídeo - Matrizes - Algoritmos #15 </a> 
                     </div>
                 </div>
             </div>
