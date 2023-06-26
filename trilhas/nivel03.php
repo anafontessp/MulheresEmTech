@@ -51,7 +51,40 @@ include('cabecalho-trilha.php');
     <div class="conteudo-container">
       <h1>Módulo 03</h1>
       <br>
-      <p>Conteúdo da página do nível 03</p>
+      <p> Nessa trilha, você explorará os principais conceitos para iniciar na área da Tecnologia e é a base 
+          para aprender qualquer linguagem de programação.</p>
+
+    <!-- utilizando accordion -->
+    <section class="accordion" id="accordionExample">
+        <article class="accordion-item">
+            <h2 class="accordion-header" id="trilha1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUm" aria-expanded="false" aria-controls="collapseUm">
+                    Trilha - Tecnologia
+                </button>
+            </h2>
+            <div id="collapseUm" class="accordion-collapse collapse" aria-labelledby="trilha1" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p> Trilha Algoritmo</p>
+                    <div class="list-group">
+                        <a href="https://www.tuacarreira.com/transicao-de-carreira/" class="list-group-item list-group-item-action">
+                            Artigo - Transição de carreira e planejamento: a chave do sucesso
+                        </a>
+                        <a href="https://www.voitto.com.br/blog/artigo/transicao-de-carreira" class="list-group-item list-group-item-action"> Artigo - Veja quando fazer uma Transição
+                            de Carreira é a melhor opção e descubra como se preparar</a>
+                        <a href="https://negocios.umcomo.com.br/artigo/transicao-de-carreira-quando-e-como-fazer-30292.html" class="list-group-item list-group-item-action"> Artigo - Transição de carreira: 
+                            quando e como fazer</a>
+                        <a href="https://www.youtube.com/watch?v=6Uz5li1qkmg" class="list-group-item list-group-item-action"> Vídeo - Cinco sinais que você precisa mudar de carreira </a>
+                        <a href="https://evernote.com/intl/pt-br" class="list-group-item list-group-item-action"> APP - Ferramenta de organização pessoal</a>
+                        <a href="https://store.steampowered.com/app/448280/Job_Simulator/" class="list-group-item list-group-item-action"> Jogo - Job Simulator </a>
+                        <a href="https://estudos.vestibulares.com.br/cursos-de-ti" class="list-group-item list-group-item-action"> Teste Vocacional </a>
+                        <a href="#" class="list-group-item list-group-item-action"> Guia prático </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+      <br>
+      
       <?php if($_SESSION["progresso"] < 4) { ?>
 
         <!-- Detalhe: o link passado contém o parâmetro "nível", com o valor de 3 -->
