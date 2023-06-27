@@ -48,7 +48,7 @@ include('cabecalho-trilha.php');
       <br>
       <p> Definir seus objetivos e identificar os motivos pelos quais você deseja fazer uma transição de carreira
           é muito importante antes de iniciar sua jornada. Esse curso ajudará a orientar sua trilha de
-          aprendizagem e manter o foco durante todo o processo. Nessa trilha, você explorará os principais
+          aprendizagem e manter o foco durante todo o processo. Nesse módulo, você explorará os principais
           aspectos envolvidos na mudança de carreira e descobrirá estratégias para fazer uma transição bem-sucedida.</p>
 
     <!-- utilizando accordion -->

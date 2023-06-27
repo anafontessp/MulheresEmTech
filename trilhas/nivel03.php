@@ -51,15 +51,15 @@ include('cabecalho-trilha.php');
     <div class="conteudo-container">
       <h1>Módulo 03</h1>
       <br>
-      <p> Nessa trilha, você explorará os principais conceitos para iniciar na área da Tecnologia e serve como base 
-          para aprender qualquer linguagem de programação.</p>
+      <p> Nesse módulo, você explorará os principais conceitos para iniciar sua aprendizagem na área da Tecnologia e informações que 
+        que servem como base para aprender qualquer linguagem de programação.</p>
 
     <!-- utilizando accordion -->
     <section class="accordion" id="accordionExample">
         <article class="accordion-item">
             <h2 class="accordion-header" id="trilha1">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUm" aria-expanded="false" aria-controls="collapseUm">
-                    Trilha - Tecnologia
+                    Trilhas_Tech
                 </button>
             </h2>
             <div id="collapseUm" class="accordion-collapse collapse" aria-labelledby="trilha1" data-bs-parent="#accordionExample">
@@ -79,9 +79,10 @@ include('cabecalho-trilha.php');
                         <a href="https://youtu.be/fP49L1i_-HU" class="list-group-item list-group-item-action"> Vídeo - Estruturas de Repetição 2 - Algoritmos #10 </a>
                         <a href="https://youtu.be/WJQz20i7CyI" class="list-group-item list-group-item-action"> Vídeo - Estruturas de Repetição 3 - Algoritmos #11 </a>
                         <a href="https://youtu.be/KoNehy7rn8U" class="list-group-item list-group-item-action"> Vídeo - Procedimentos - Algoritmos #12 </a>
-                        <a href="https://youtu.be/-nNx7e8GzHQ" class="list-group-item list-group-item-action"> Funções - Algoritmos #13 </a>
+                        <a href="https://youtu.be/-nNx7e8GzHQ" class="list-group-item list-group-item-action"> Vídeo - Funções - Algoritmos #13 </a>
                         <a href="https://youtu.be/j9473xQ39vY?list=RDCMUCrWvhVmt0Qac3HgsjQK62FQ" class="list-group-item list-group-item-action"> Vídeo - Vetores - Algoritmos #14 </a>
-                        <a href="https://youtu.be/hkE9WrjpAAk" class="list-group-item list-group-item-action"> Vídeo - Matrizes - Algoritmos #15 </a> 
+                        <a href="https://youtu.be/hkE9WrjpAAk" class="list-group-item list-group-item-action"> Vídeo - Matrizes - Algoritmos #15 </a>
+                        <a href="https://www.cursoemvideo.com/" class="list-group-item list-group-item-action"> Cursos - Cursos de Tecnologia Gratuitos </a> 
                     </div>
                 </div>
             </div>

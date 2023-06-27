@@ -75,7 +75,7 @@ include('cabecalho.php');
           <div class="bottom-card" >
           <?php if (isset($_SESSION["autorizacao"]) && isset($_SESSION["user_name"])) { ?>
             
-            <a href="#" class="btn-trilha">
+            <a href="./trilhas/nivel03.php" class="btn-trilha">
               <span>Começar agora</span>
             </a>
 
